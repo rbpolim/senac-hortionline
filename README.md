@@ -1,17 +1,36 @@
-# Project
+## Projeto Integrador Hortionline
 
-## Description
+Somos uma plataforma que conecta pessoas interessadas em legumes e vegetais frescos e orgânicos com produtores locais. Nosso site permite que produtores criem perfis e compartilhem seus produtos, promovendo uma alimentação saudável e sustentável e facilitando o acesso a alimentos de qualidade e procedência confiável.
 
-This project is a simple example of how to use the [**`pandas`**](https://pandas.pydata.org/) library to read a CSV file and display its content.
+## Estrutura do Projeto
 
-## How to run
+- [use-cases]()
+- [diagrama]()
+- [prototipos]()
+- [projeto-web]()
 
-To run this project you will need to have Python installed. You can run it by using the command:
+## Colaboradores
 
-```bash
-python main.py
-```
+- [Rodrigo Polim](<https://github.com/rbpolim>)
 
-## License
+## Features
 
-This project is under the MIT license. See the [LICENSE](LICENSE) file for more details.
+O projeto usa os seguintes recursos:
+
+- Tema light e dark para melhorar a experiência do usuário.
+
+## Techs Stacks
+
+- TypeScript
+- NextJS
+- TailwindCSS
+- Shadcn/ui 
+
+## Features
+
+- Padronização de commits (feat/fix/chore/style/docs);
+- Poder...
+
+## Demo 
+
+- [Hortionline](https://senac-hortionline.vercel.app)
