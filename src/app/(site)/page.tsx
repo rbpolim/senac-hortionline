@@ -1,21 +1,21 @@
+import { VENDORS } from "@/data/vendors-data";
+
 import { MarketCard } from "@/components/market-card";
-import { markets } from "@/data/market-data";
 
 export default function Home() {
   return (
     <div className="flex gap-y-10 items-center">
-      <div>
-        <div className="flex flex-col gap-6">
-          {markets.map((market) => (
-            <MarketCard 
-              key={market.id}
-              title={market.name}
-              description={market.description}
-              rating={market.rating}
-              image={market.avatarUrl}
-            />
-          ))}
-        </div>
+      <div className="flex flex-col gap-6">
+        {VENDORS.map((vendor) => (
+          <MarketCard
+            key={vendor.id}
+            title={vendor.name}
+            description={vendor.description}
+            rating={vendor.rating}
+            image={vendor.avatarUrl}
+            slug={vendor.slug}
+          />
+        ))}
       </div>
     </div>
   );

@@ -1,4 +1,4 @@
-export const markets = [
+export const VENDORS = [
     {
         "id": 1,
         "avatarUrl": "/logo.svg",
@@ -29,7 +29,7 @@ export const markets = [
                 "id": 1,
                 "title": "Tomate Orgânico",
                 "type": "Vegetal",
-                "image": "https://example.com/images/tomate.jpg",
+                "image": "/logo.svg",
                 "price": 5.50,
                 "description": "Tomate orgânico fresco e suculento."
             },
@@ -37,7 +37,7 @@ export const markets = [
                 "id": 2,
                 "title": "Banana Orgânica",
                 "type": "Fruta",
-                "image": "https://example.com/images/banana.jpg",
+                "image": "/logo.svg",
                 "price": 3.00,
                 "description": "Banana orgânica de alta qualidade."
             },
@@ -45,7 +45,7 @@ export const markets = [
                 "id": 3,
                 "title": "Manjericão Orgânico",
                 "type": "Erva",
-                "image": "https://example.com/images/manjericao.jpg",
+                "image": "/logo.svg",
                 "price": 2.00,
                 "description": "Manjericão fresco para temperos."
             }
@@ -81,7 +81,7 @@ export const markets = [
                 "id": 4,
                 "title": "Cenoura Orgânica",
                 "type": "Vegetal",
-                "image": "https://example.com/images/cenoura.jpg",
+                "image": "/logo.svg",
                 "price": 4.00,
                 "description": "Cenouras frescas, ricas em nutrientes."
             },
@@ -89,7 +89,7 @@ export const markets = [
                 "id": 5,
                 "title": "Abobrinha Orgânica",
                 "type": "Vegetal",
-                "image": "https://example.com/images/abobrinha.jpg",
+                "image": "/logo.svg",
                 "price": 4.50,
                 "description": "Abobrinhas orgânicas de alta qualidade."
             },
@@ -97,7 +97,7 @@ export const markets = [
                 "id": 6,
                 "title": "Salsa Orgânica",
                 "type": "Erva",
-                "image": "https://example.com/images/salsa.jpg",
+                "image": "/logo.svg",
                 "price": 1.50,
                 "description": "Salsa fresca para temperar suas refeições."
             }
@@ -133,7 +133,7 @@ export const markets = [
                 "id": 7,
                 "title": "Alface Orgânica",
                 "type": "Vegetal",
-                "image": "https://example.com/images/alface.jpg",
+                "image": "/logo.svg",
                 "price": 2.50,
                 "description": "Alface orgânica, fresca e crocante."
             },
@@ -141,7 +141,7 @@ export const markets = [
                 "id": 8,
                 "title": "Batata Doce Orgânica",
                 "type": "Vegetal",
-                "image": "https://example.com/images/batata_doce.jpg",
+                "image": "/logo.svg",
                 "price": 3.50,
                 "description": "Batatas doces orgânicas para receitas saudáveis."
             },
@@ -149,7 +149,7 @@ export const markets = [
                 "id": 9,
                 "title": "Alecrim Orgânico",
                 "type": "Erva",
-                "image": "https://example.com/images/alecrim.jpg",
+                "image": "/logo.svg",
                 "price": 2.00,
                 "description": "Alecrim fresco para temperar suas refeições."
             }
@@ -185,7 +185,7 @@ export const markets = [
                 "id": 10,
                 "title": "Espinafre Orgânico",
                 "type": "Vegetal",
-                "image": "https://example.com/images/espinafre.jpg",
+                "image": "/logo.svg",
                 "price": 3.00,
                 "description": "Espinafre orgânico, rico em ferro e vitaminas."
             },
@@ -193,7 +193,7 @@ export const markets = [
                 "id": 11,
                 "title": "Maçã Orgânica",
                 "type": "Fruta",
-                "image": "https://example.com/images/maca.jpg",
+                "image": "/logo.svg",
                 "price": 5.00,
                 "description": "Maçãs orgânicas, saborosas e suculentas."
             },
@@ -201,7 +201,7 @@ export const markets = [
                 "id": 12,
                 "title": "Cebolinha Orgânica",
                 "type": "Erva",
-                "image": "https://example.com/images/cebolinha.jpg",
+                "image": "/logo.svg",
                 "price": 1.80,
                 "description": "Cebolinha orgânica para temperos frescos."
             }
@@ -209,3 +209,4 @@ export const markets = [
     }
   ];
   
+  export type VendorProps = (typeof VENDORS)[0]

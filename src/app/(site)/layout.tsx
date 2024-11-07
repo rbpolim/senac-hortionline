@@ -7,9 +7,9 @@ export default function WebsiteLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <div className="min-h-screen font-mono">
+    <div className="min-h-screen font-mono flex flex-col">
       <Header />
-      <main className="py-28 px-6 h-full">{children}</main>
+      <main className="py-28 px-6 h-full flex-1">{children}</main>
       <Footer />
     </div>
   );

@@ -3,7 +3,7 @@ import { Instagram, Twitter } from "lucide-react";
 
 export function Footer() {
   return (
-    <section className="py-8">
+    <footer className="flex-shrink-0 py-8">
       <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
         <div className="text-center xl:flex xl:items-center xl:justify-between xl:text-left">
           <div className="flex flex-row items-center justify-center">
@@ -61,6 +61,6 @@ export function Footer() {
           </div>
         </div>
       </div>
-    </section>
+    </footer>
   );
 }
