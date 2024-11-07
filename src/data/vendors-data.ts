@@ -25,31 +25,152 @@ export const VENDORS = [
             "hours": "08:00 - 14:00"
         },
         "products": [
+    {
+        "title": "Produtos em destaque",
+        "products": [
             {
                 "id": 1,
-                "title": "Tomate Orgânico",
-                "type": "Vegetal",
-                "image": "/logo.svg",
-                "price": 5.50,
-                "description": "Tomate orgânico fresco e suculento."
+                "title": "Cenoura Orgânica",
+                "type": "Legume",
+                "image": "/images/cenoura.jpg",
+                "price": 4.00,
+                "description": "Cenouras frescas, ricas em nutrientes."
             },
             {
                 "id": 2,
-                "title": "Banana Orgânica",
-                "type": "Fruta",
-                "image": "/logo.svg",
-                "price": 3.00,
-                "description": "Banana orgânica de alta qualidade."
+                "title": "Alface Orgânica",
+                "type": "Salada",
+                "image": "/images/alface.jpg",
+                "price": 3.50,
+                "description": "Alface orgânica crocante e fresca."
             },
             {
                 "id": 3,
-                "title": "Manjericão Orgânico",
+                "title": "Salsa Orgânica",
                 "type": "Erva",
-                "image": "/logo.svg",
-                "price": 2.00,
-                "description": "Manjericão fresco para temperos."
+                "image": "/images/salsa.jpg",
+                "price": 1.50,
+                "description": "Salsa fresca para temperar suas refeições."
             }
         ]
+    },
+    {
+        "title": "Legumes",
+        "products": [
+            {
+                "id": 4,
+                "title": "Abobrinha Orgânica",
+                "type": "Legume",
+                "image": "/images/abobrinha.jpg",
+                "price": 4.50,
+                "description": "Abobrinhas orgânicas de alta qualidade."
+            },
+            {
+                "id": 5,
+                "title": "Beterraba Orgânica",
+                "type": "Legume",
+                "image": "/images/beterraba.jpg",
+                "price": 3.00,
+                "description": "Beterrabas orgânicas cheias de sabor e nutrientes."
+            },
+            {
+                "id": 6,
+                "title": "Pepino Orgânico",
+                "type": "Legume",
+                "image": "/images/pepino.jpg",
+                "price": 2.80,
+                "description": "Pepino crocante e fresco, ideal para saladas."
+            }
+        ]
+    },
+    {
+        "title": "Verduras",
+        "products": [
+            {
+                "id": 7,
+                "title": "Couve Orgânica",
+                "type": "Verdura",
+                "image": "/images/couve.jpg",
+                "price": 2.50,
+                "description": "Couve orgânica rica em vitaminas."
+            },
+            {
+                "id": 8,
+                "title": "Espinafre Orgânico",
+                "type": "Verdura",
+                "image": "/images/espinafre.jpg",
+                "price": 3.20,
+                "description": "Espinafre orgânico perfeito para receitas saudáveis."
+            },
+            {
+                "id": 9,
+                "title": "Alface Orgânica",
+                "type": "Verdura",
+                "image": "/images/alface.jpg",
+                "price": 3.50,
+                "description": "Alface orgânica crocante e fresca."
+            }
+        ]
+    },
+    {
+        "title": "Ervas",
+        "products": [
+            {
+                "id": 10,
+                "title": "Manjericão Orgânico",
+                "type": "Erva",
+                "image": "/images/manjericao.jpg",
+                "price": 2.00,
+                "description": "Manjericão fresco para temperos."
+            },
+            {
+                "id": 11,
+                "title": "Salsa Orgânica",
+                "type": "Erva",
+                "image": "/images/salsa.jpg",
+                "price": 1.50,
+                "description": "Salsa fresca para temperar suas refeições."
+            },
+            {
+                "id": 12,
+                "title": "Cebolinha Orgânica",
+                "type": "Erva",
+                "image": "/images/cebolinha.jpg",
+                "price": 1.80,
+                "description": "Cebolinha orgânica para adicionar sabor aos pratos."
+            }
+        ]
+    },
+    {
+        "title": "Saladas",
+        "products": [
+            {
+                "id": 13,
+                "title": "Rúcula Orgânica",
+                "type": "Salada",
+                "image": "/images/rucula.jpg",
+                "price": 3.20,
+                "description": "Rúcula fresca, perfeita para saladas."
+            },
+            {
+                "id": 14,
+                "title": "Alface Orgânica",
+                "type": "Salada",
+                "image": "/images/alface.jpg",
+                "price": 3.50,
+                "description": "Alface crocante, ideal para saladas."
+            },
+            {
+                "id": 15,
+                "title": "Acelga Orgânica",
+                "type": "Salada",
+                "image": "/images/acelga.jpg",
+                "price": 2.90,
+                "description": "Acelga fresca e crocante, ótima para pratos leves."
+            }
+        ]
+    }
+]
     },
     {
         "id": 2,
@@ -77,31 +198,152 @@ export const VENDORS = [
             "hours": "07:00 - 13:00"
         },
         "products": [
+    {
+        "title": "Produtos em destaque",
+        "products": [
             {
-                "id": 4,
+                "id": 1,
                 "title": "Cenoura Orgânica",
-                "type": "Vegetal",
-                "image": "/logo.svg",
+                "type": "Legume",
+                "image": "/images/cenoura.jpg",
                 "price": 4.00,
                 "description": "Cenouras frescas, ricas em nutrientes."
             },
             {
-                "id": 5,
-                "title": "Abobrinha Orgânica",
-                "type": "Vegetal",
-                "image": "/logo.svg",
-                "price": 4.50,
-                "description": "Abobrinhas orgânicas de alta qualidade."
+                "id": 2,
+                "title": "Alface Orgânica",
+                "type": "Salada",
+                "image": "/images/alface.jpg",
+                "price": 3.50,
+                "description": "Alface orgânica crocante e fresca."
             },
             {
-                "id": 6,
+                "id": 3,
                 "title": "Salsa Orgânica",
                 "type": "Erva",
-                "image": "/logo.svg",
+                "image": "/images/salsa.jpg",
                 "price": 1.50,
                 "description": "Salsa fresca para temperar suas refeições."
             }
         ]
+    },
+    {
+        "title": "Legumes",
+        "products": [
+            {
+                "id": 4,
+                "title": "Abobrinha Orgânica",
+                "type": "Legume",
+                "image": "/images/abobrinha.jpg",
+                "price": 4.50,
+                "description": "Abobrinhas orgânicas de alta qualidade."
+            },
+            {
+                "id": 5,
+                "title": "Beterraba Orgânica",
+                "type": "Legume",
+                "image": "/images/beterraba.jpg",
+                "price": 3.00,
+                "description": "Beterrabas orgânicas cheias de sabor e nutrientes."
+            },
+            {
+                "id": 6,
+                "title": "Pepino Orgânico",
+                "type": "Legume",
+                "image": "/images/pepino.jpg",
+                "price": 2.80,
+                "description": "Pepino crocante e fresco, ideal para saladas."
+            }
+        ]
+    },
+    {
+        "title": "Verduras",
+        "products": [
+            {
+                "id": 7,
+                "title": "Couve Orgânica",
+                "type": "Verdura",
+                "image": "/images/couve.jpg",
+                "price": 2.50,
+                "description": "Couve orgânica rica em vitaminas."
+            },
+            {
+                "id": 8,
+                "title": "Espinafre Orgânico",
+                "type": "Verdura",
+                "image": "/images/espinafre.jpg",
+                "price": 3.20,
+                "description": "Espinafre orgânico perfeito para receitas saudáveis."
+            },
+            {
+                "id": 9,
+                "title": "Alface Orgânica",
+                "type": "Verdura",
+                "image": "/images/alface.jpg",
+                "price": 3.50,
+                "description": "Alface orgânica crocante e fresca."
+            }
+        ]
+    },
+    {
+        "title": "Ervas",
+        "products": [
+            {
+                "id": 10,
+                "title": "Manjericão Orgânico",
+                "type": "Erva",
+                "image": "/images/manjericao.jpg",
+                "price": 2.00,
+                "description": "Manjericão fresco para temperos."
+            },
+            {
+                "id": 11,
+                "title": "Salsa Orgânica",
+                "type": "Erva",
+                "image": "/images/salsa.jpg",
+                "price": 1.50,
+                "description": "Salsa fresca para temperar suas refeições."
+            },
+            {
+                "id": 12,
+                "title": "Cebolinha Orgânica",
+                "type": "Erva",
+                "image": "/images/cebolinha.jpg",
+                "price": 1.80,
+                "description": "Cebolinha orgânica para adicionar sabor aos pratos."
+            }
+        ]
+    },
+    {
+        "title": "Saladas",
+        "products": [
+            {
+                "id": 13,
+                "title": "Rúcula Orgânica",
+                "type": "Salada",
+                "image": "/images/rucula.jpg",
+                "price": 3.20,
+                "description": "Rúcula fresca, perfeita para saladas."
+            },
+            {
+                "id": 14,
+                "title": "Alface Orgânica",
+                "type": "Salada",
+                "image": "/images/alface.jpg",
+                "price": 3.50,
+                "description": "Alface crocante, ideal para saladas."
+            },
+            {
+                "id": 15,
+                "title": "Acelga Orgânica",
+                "type": "Salada",
+                "image": "/images/acelga.jpg",
+                "price": 2.90,
+                "description": "Acelga fresca e crocante, ótima para pratos leves."
+            }
+        ]
+    }
+]
     },
     {
         "id": 3,
@@ -129,31 +371,152 @@ export const VENDORS = [
             "hours": "09:00 - 15:00"
         },
         "products": [
+    {
+        "title": "Produtos em destaque",
+        "products": [
+            {
+                "id": 1,
+                "title": "Cenoura Orgânica",
+                "type": "Legume",
+                "image": "/images/cenoura.jpg",
+                "price": 4.00,
+                "description": "Cenouras frescas, ricas em nutrientes."
+            },
+            {
+                "id": 2,
+                "title": "Alface Orgânica",
+                "type": "Salada",
+                "image": "/images/alface.jpg",
+                "price": 3.50,
+                "description": "Alface orgânica crocante e fresca."
+            },
+            {
+                "id": 3,
+                "title": "Salsa Orgânica",
+                "type": "Erva",
+                "image": "/images/salsa.jpg",
+                "price": 1.50,
+                "description": "Salsa fresca para temperar suas refeições."
+            }
+        ]
+    },
+    {
+        "title": "Legumes",
+        "products": [
+            {
+                "id": 4,
+                "title": "Abobrinha Orgânica",
+                "type": "Legume",
+                "image": "/images/abobrinha.jpg",
+                "price": 4.50,
+                "description": "Abobrinhas orgânicas de alta qualidade."
+            },
+            {
+                "id": 5,
+                "title": "Beterraba Orgânica",
+                "type": "Legume",
+                "image": "/images/beterraba.jpg",
+                "price": 3.00,
+                "description": "Beterrabas orgânicas cheias de sabor e nutrientes."
+            },
+            {
+                "id": 6,
+                "title": "Pepino Orgânico",
+                "type": "Legume",
+                "image": "/images/pepino.jpg",
+                "price": 2.80,
+                "description": "Pepino crocante e fresco, ideal para saladas."
+            }
+        ]
+    },
+    {
+        "title": "Verduras",
+        "products": [
             {
                 "id": 7,
-                "title": "Alface Orgânica",
-                "type": "Vegetal",
-                "image": "/logo.svg",
+                "title": "Couve Orgânica",
+                "type": "Verdura",
+                "image": "/images/couve.jpg",
                 "price": 2.50,
-                "description": "Alface orgânica, fresca e crocante."
+                "description": "Couve orgânica rica em vitaminas."
             },
             {
                 "id": 8,
-                "title": "Batata Doce Orgânica",
-                "type": "Vegetal",
-                "image": "/logo.svg",
-                "price": 3.50,
-                "description": "Batatas doces orgânicas para receitas saudáveis."
+                "title": "Espinafre Orgânico",
+                "type": "Verdura",
+                "image": "/images/espinafre.jpg",
+                "price": 3.20,
+                "description": "Espinafre orgânico perfeito para receitas saudáveis."
             },
             {
                 "id": 9,
-                "title": "Alecrim Orgânico",
-                "type": "Erva",
-                "image": "/logo.svg",
-                "price": 2.00,
-                "description": "Alecrim fresco para temperar suas refeições."
+                "title": "Alface Orgânica",
+                "type": "Verdura",
+                "image": "/images/alface.jpg",
+                "price": 3.50,
+                "description": "Alface orgânica crocante e fresca."
             }
         ]
+    },
+    {
+        "title": "Ervas",
+        "products": [
+            {
+                "id": 10,
+                "title": "Manjericão Orgânico",
+                "type": "Erva",
+                "image": "/images/manjericao.jpg",
+                "price": 2.00,
+                "description": "Manjericão fresco para temperos."
+            },
+            {
+                "id": 11,
+                "title": "Salsa Orgânica",
+                "type": "Erva",
+                "image": "/images/salsa.jpg",
+                "price": 1.50,
+                "description": "Salsa fresca para temperar suas refeições."
+            },
+            {
+                "id": 12,
+                "title": "Cebolinha Orgânica",
+                "type": "Erva",
+                "image": "/images/cebolinha.jpg",
+                "price": 1.80,
+                "description": "Cebolinha orgânica para adicionar sabor aos pratos."
+            }
+        ]
+    },
+    {
+        "title": "Saladas",
+        "products": [
+            {
+                "id": 13,
+                "title": "Rúcula Orgânica",
+                "type": "Salada",
+                "image": "/images/rucula.jpg",
+                "price": 3.20,
+                "description": "Rúcula fresca, perfeita para saladas."
+            },
+            {
+                "id": 14,
+                "title": "Alface Orgânica",
+                "type": "Salada",
+                "image": "/images/alface.jpg",
+                "price": 3.50,
+                "description": "Alface crocante, ideal para saladas."
+            },
+            {
+                "id": 15,
+                "title": "Acelga Orgânica",
+                "type": "Salada",
+                "image": "/images/acelga.jpg",
+                "price": 2.90,
+                "description": "Acelga fresca e crocante, ótima para pratos leves."
+            }
+        ]
+    }
+]
     },
     {
         "id": 4,
@@ -181,32 +544,155 @@ export const VENDORS = [
             "hours": "08:00 - 12:00"
         },
         "products": [
+    {
+        "title": "Produtos em destaque",
+        "products": [
+            {
+                "id": 1,
+                "title": "Cenoura Orgânica",
+                "type": "Legume",
+                "image": "/images/cenoura.jpg",
+                "price": 4.00,
+                "description": "Cenouras frescas, ricas em nutrientes."
+            },
+            {
+                "id": 2,
+                "title": "Alface Orgânica",
+                "type": "Salada",
+                "image": "/images/alface.jpg",
+                "price": 3.50,
+                "description": "Alface orgânica crocante e fresca."
+            },
+            {
+                "id": 3,
+                "title": "Salsa Orgânica",
+                "type": "Erva",
+                "image": "/images/salsa.jpg",
+                "price": 1.50,
+                "description": "Salsa fresca para temperar suas refeições."
+            }
+        ]
+    },
+    {
+        "title": "Legumes",
+        "products": [
+            {
+                "id": 4,
+                "title": "Abobrinha Orgânica",
+                "type": "Legume",
+                "image": "/images/abobrinha.jpg",
+                "price": 4.50,
+                "description": "Abobrinhas orgânicas de alta qualidade."
+            },
+            {
+                "id": 5,
+                "title": "Beterraba Orgânica",
+                "type": "Legume",
+                "image": "/images/beterraba.jpg",
+                "price": 3.00,
+                "description": "Beterrabas orgânicas cheias de sabor e nutrientes."
+            },
+            {
+                "id": 6,
+                "title": "Pepino Orgânico",
+                "type": "Legume",
+                "image": "/images/pepino.jpg",
+                "price": 2.80,
+                "description": "Pepino crocante e fresco, ideal para saladas."
+            }
+        ]
+    },
+    {
+        "title": "Verduras",
+        "products": [
+            {
+                "id": 7,
+                "title": "Couve Orgânica",
+                "type": "Verdura",
+                "image": "/images/couve.jpg",
+                "price": 2.50,
+                "description": "Couve orgânica rica em vitaminas."
+            },
+            {
+                "id": 8,
+                "title": "Espinafre Orgânico",
+                "type": "Verdura",
+                "image": "/images/espinafre.jpg",
+                "price": 3.20,
+                "description": "Espinafre orgânico perfeito para receitas saudáveis."
+            },
+            {
+                "id": 9,
+                "title": "Alface Orgânica",
+                "type": "Verdura",
+                "image": "/images/alface.jpg",
+                "price": 3.50,
+                "description": "Alface orgânica crocante e fresca."
+            }
+        ]
+    },
+    {
+        "title": "Ervas",
+        "products": [
             {
                 "id": 10,
-                "title": "Espinafre Orgânico",
-                "type": "Vegetal",
-                "image": "/logo.svg",
-                "price": 3.00,
-                "description": "Espinafre orgânico, rico em ferro e vitaminas."
+                "title": "Manjericão Orgânico",
+                "type": "Erva",
+                "image": "/images/manjericao.jpg",
+                "price": 2.00,
+                "description": "Manjericão fresco para temperos."
             },
             {
                 "id": 11,
-                "title": "Maçã Orgânica",
-                "type": "Fruta",
-                "image": "/logo.svg",
-                "price": 5.00,
-                "description": "Maçãs orgânicas, saborosas e suculentas."
+                "title": "Salsa Orgânica",
+                "type": "Erva",
+                "image": "/images/salsa.jpg",
+                "price": 1.50,
+                "description": "Salsa fresca para temperar suas refeições."
             },
             {
                 "id": 12,
                 "title": "Cebolinha Orgânica",
                 "type": "Erva",
-                "image": "/logo.svg",
+                "image": "/images/cebolinha.jpg",
                 "price": 1.80,
-                "description": "Cebolinha orgânica para temperos frescos."
+                "description": "Cebolinha orgânica para adicionar sabor aos pratos."
             }
         ]
+    },
+    {
+        "title": "Saladas",
+        "products": [
+            {
+                "id": 13,
+                "title": "Rúcula Orgânica",
+                "type": "Salada",
+                "image": "/images/rucula.jpg",
+                "price": 3.20,
+                "description": "Rúcula fresca, perfeita para saladas."
+            },
+            {
+                "id": 14,
+                "title": "Alface Orgânica",
+                "type": "Salada",
+                "image": "/images/alface.jpg",
+                "price": 3.50,
+                "description": "Alface crocante, ideal para saladas."
+            },
+            {
+                "id": 15,
+                "title": "Acelga Orgânica",
+                "type": "Salada",
+                "image": "/images/acelga.jpg",
+                "price": 2.90,
+                "description": "Acelga fresca e crocante, ótima para pratos leves."
+            }
+        ]
+    }
+]
     }
   ];
   
   export type VendorProps = (typeof VENDORS)[0]
+  export type ProductsProps = VendorProps["products"]
+  export type ProductProps = ProductsProps[0]["products"][0]
