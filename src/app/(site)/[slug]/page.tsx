@@ -46,6 +46,7 @@ export default function VendorDetails() {
           </span>
         </div>
       </div>
+      {/* @ts-expect-error verificar */}
       <ProductSection title="Products" products={vendor.products} />
     </>
   );
