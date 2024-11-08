@@ -1,5 +1,4 @@
 import { ProductCard } from "@/components/product-card";
-
 import { ProductsCategories } from "@/data/sellers-data";
 
 type ProductSectionProps = {
@@ -8,12 +7,12 @@ type ProductSectionProps = {
 
 export function ProductSection({ productsCategories }: ProductSectionProps) {
   return (
-    <section className="py-6">
+    <section className="py-6 mt-4">
       <div className="flex flex-col gap-y-8">
         {productsCategories.map((productCategory) => (
           <div key={productCategory.title}>
-            <h2 className="text-2xl font-semibold mb-2">{productCategory.title}</h2>
-            <div className="flex space-x-4 overflow-x-auto">
+            <h2 className="text-lg font-bold">{productCategory.title}</h2>
+            <div className="flex space-x-2 overflow-x-auto mt-2 pb-4">
               {productCategory.products.map((item) => (
                 <ProductCard
                   key={item.id}

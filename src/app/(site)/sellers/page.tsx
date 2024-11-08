@@ -1,6 +1,6 @@
 import { SELLERS } from "@/data/sellers-data";
 
-import { MarketCard } from "@/components/market-card";
+import { SellerCard } from "@/components/seller-card";
 
 export default function SellersPage() {
   return (
@@ -12,7 +12,7 @@ export default function SellersPage() {
       </p>
       <div className="flex flex-col gap-6 mt-8">
         {SELLERS.map((seller) => (
-          <MarketCard
+          <SellerCard
             key={seller.id}
             title={seller.name}
             description={seller.description}

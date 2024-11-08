@@ -20,7 +20,7 @@ type Props = {
   slug: string
 }
 
-export function MarketCard({
+export function SellerCard({
   title,
   description,
   rating,

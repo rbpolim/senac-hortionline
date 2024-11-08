@@ -21,10 +21,8 @@ export function ProductCard({
   price,
   image,
 }: Props) {
-  console.log(image)
-
   return (
-    <Card>
+    <Card >
       <CardHeader>
         <CardTitle className='text-sm'>{title}</CardTitle>
         <CardDescription className='text-xs'>${price}</CardDescription>

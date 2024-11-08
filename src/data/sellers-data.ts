@@ -98,7 +98,7 @@ export const SELLERS = [
             "id": 8,
             "title": "Espinafre Orgânico",
             "type": "Verdura",
-            "image": "/images/espinafre.png",
+            "image": "/images/beterraba.png",
             "price": 3.20,
             "description": "Espinafre orgânico perfeito para receitas saudáveis."
           },
@@ -119,7 +119,7 @@ export const SELLERS = [
             "id": 10,
             "title": "Manjericão Orgânico",
             "type": "Erva",
-            "image": "/images/manjericao.png",
+            "image": "/images/alface.png",
             "price": 2.00,
             "description": "Manjericão fresco para temperos."
           },
@@ -135,7 +135,7 @@ export const SELLERS = [
             "id": 12,
             "title": "Cebolinha Orgânica",
             "type": "Erva",
-            "image": "/images/cebolinha.png",
+            "image": "/images/cenoura.png",
             "price": 1.80,
             "description": "Cebolinha orgânica para adicionar sabor aos pratos."
           }
@@ -148,7 +148,7 @@ export const SELLERS = [
             "id": 13,
             "title": "Rúcula Orgânica",
             "type": "Salada",
-            "image": "/images/rucula.png",
+            "image": "/images/couve.png",
             "price": 3.20,
             "description": "Rúcula fresca, perfeita para saladas."
           },
@@ -164,7 +164,7 @@ export const SELLERS = [
             "id": 15,
             "title": "Acelga Orgânica",
             "type": "Salada",
-            "image": "/images/acelga.png",
+            "image": "/images/salsa.png",
             "price": 2.90,
             "description": "Acelga fresca e crocante, ótima para pratos leves."
           }
@@ -271,7 +271,7 @@ export const SELLERS = [
             "id": 23,
             "title": "Espinafre Orgânico",
             "type": "Verdura",
-            "image": "/images/espinafre.png",
+            "image": "/images/beterraba.png",
             "price": 3.20,
             "description": "Espinafre orgânico perfeito para receitas saudáveis."
           },
@@ -292,7 +292,7 @@ export const SELLERS = [
             "id": 25,
             "title": "Manjericão Orgânico",
             "type": "Erva",
-            "image": "/images/manjericao.png",
+            "image": "/images/alface.png",
             "price": 2.00,
             "description": "Manjericão fresco para temperos."
           },
@@ -308,7 +308,7 @@ export const SELLERS = [
             "id": 27,
             "title": "Cebolinha Orgânica",
             "type": "Erva",
-            "image": "/images/cebolinha.png",
+            "image": "/images/cenoura.png",
             "price": 1.80,
             "description": "Cebolinha orgânica para adicionar sabor aos pratos."
           }
@@ -321,7 +321,7 @@ export const SELLERS = [
             "id": 28,
             "title": "Rúcula Orgânica",
             "type": "Salada",
-            "image": "/images/rucula.png",
+            "image": "/images/couve.png",
             "price": 3.20,
             "description": "Rúcula fresca, perfeita para saladas."
           },
@@ -337,7 +337,7 @@ export const SELLERS = [
             "id": 30,
             "title": "Acelga Orgânica",
             "type": "Salada",
-            "image": "/images/acelga.png",
+            "image": "/images/salsa.png",
             "price": 2.90,
             "description": "Acelga fresca e crocante, ótima para pratos leves."
           }
@@ -444,7 +444,7 @@ export const SELLERS = [
             "id": 38,
             "title": "Espinafre Orgânico",
             "type": "Verdura",
-            "image": "/images/espinafre.png",
+            "image": "/images/beterraba.png",
             "price": 3.20,
             "description": "Espinafre orgânico perfeito para receitas saudáveis."
           },
@@ -465,7 +465,7 @@ export const SELLERS = [
             "id": 40,
             "title": "Manjericão Orgânico",
             "type": "Erva",
-            "image": "/images/manjericao.png",
+            "image": "/images/alface.png",
             "price": 2.00,
             "description": "Manjericão fresco para temperos."
           },
@@ -481,7 +481,7 @@ export const SELLERS = [
             "id": 42,
             "title": "Cebolinha Orgânica",
             "type": "Erva",
-            "image": "/images/cebolinha.png",
+            "image": "/images/cenoura.png",
             "price": 1.80,
             "description": "Cebolinha orgânica para adicionar sabor aos pratos."
           }
@@ -494,7 +494,7 @@ export const SELLERS = [
             "id": 43,
             "title": "Rúcula Orgânica",
             "type": "Salada",
-            "image": "/images/rucula.png",
+            "image": "/images/couve.png",
             "price": 3.20,
             "description": "Rúcula fresca, perfeita para saladas."
           },
@@ -510,7 +510,7 @@ export const SELLERS = [
             "id": 45,
             "title": "Acelga Orgânica",
             "type": "Salada",
-            "image": "/images/acelga.png",
+            "image": "/images/salsa.png",
             "price": 2.90,
             "description": "Acelga fresca e crocante, ótima para pratos leves."
           }
@@ -617,7 +617,7 @@ export const SELLERS = [
             "id": 53,
             "title": "Espinafre Orgânico",
             "type": "Verdura",
-            "image": "/images/espinafre.png",
+            "image": "/images/beterraba.png",
             "price": 3.20,
             "description": "Espinafre orgânico perfeito para receitas saudáveis."
           },
@@ -638,7 +638,7 @@ export const SELLERS = [
             "id": 55,
             "title": "Manjericão Orgânico",
             "type": "Erva",
-            "image": "/images/manjericao.png",
+            "image": "/images/alface.png",
             "price": 2.00,
             "description": "Manjericão fresco para temperos."
           },
@@ -654,7 +654,7 @@ export const SELLERS = [
             "id": 57,
             "title": "Cebolinha Orgânica",
             "type": "Erva",
-            "image": "/images/cebolinha.png",
+            "image": "/images/cenoura.png",
             "price": 1.80,
             "description": "Cebolinha orgânica para adicionar sabor aos pratos."
           }
@@ -667,7 +667,7 @@ export const SELLERS = [
             "id": 58,
             "title": "Rúcula Orgânica",
             "type": "Salada",
-            "image": "/images/rucula.png",
+            "image": "/images/couve.png",
             "price": 3.20,
             "description": "Rúcula fresca, perfeita para saladas."
           },
@@ -683,7 +683,7 @@ export const SELLERS = [
             "id": 60,
             "title": "Acelga Orgânica",
             "type": "Salada",
-            "image": "/images/acelga.png",
+            "image": "/images/salsa.png",
             "price": 2.90,
             "description": "Acelga fresca e crocante, ótima para pratos leves."
           }

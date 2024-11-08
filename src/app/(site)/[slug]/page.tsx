@@ -29,8 +29,6 @@ export default function SellerPage() {
     return null;
   }
 
-  console.log('seller', seller)
-
   return (
     <>
       <ModalProfile
@@ -38,7 +36,7 @@ export default function SellerPage() {
         onClose={() => setOpen(false)}
         seller={seller}
       />
-      <div className="flex items-center gap-x-3">
+      <div className="flex items-center gap-x-4">
         <Avatar>
           <AvatarImage src="/test.png" className="object-cover" />
         </Avatar>
