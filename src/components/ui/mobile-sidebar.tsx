@@ -1,5 +1,6 @@
 import { AlignLeft } from "lucide-react";
 
+import { Sidebar } from "@/components/sidebar";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 
 export function MobileSidebar() {
@@ -9,7 +10,7 @@ export function MobileSidebar() {
         <AlignLeft className="w-8 h-8" />
       </SheetTrigger>
       <SheetContent side="left" className="p-0">
-        {/* <Sidebar /> */}
+        <Sidebar />
       </SheetContent>
     </Sheet>
   );
