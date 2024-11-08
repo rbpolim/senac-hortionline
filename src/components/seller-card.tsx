@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import Link from 'next/link'
-import { StarIcon } from 'lucide-react'
+import { Plus, StarIcon } from 'lucide-react'
 
 import {
   Card,
@@ -50,7 +50,8 @@ export function SellerCard({
       <CardFooter>
         <Button asChild className="w-full">
           <Link href={slug}>
-            View More
+            Mais informações
+          <Plus size={16} className="inline-block mr-1" />
           </Link>
         </Button>
       </CardFooter>
