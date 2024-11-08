@@ -397,6 +397,30 @@ export const SELLERS = [
             "image": "/images/food/salsa.png",
             "price": 1.50,
             "description": "Salsa fresca para temperar suas refeições."
+          },
+          {
+            "id": 312,
+            "title": "Cenoura Orgânica",
+            "type": "Legume",
+            "image": "/images/food/cenoura.png",
+            "price": 4.00,
+            "description": "Cenouras frescas, ricas em nutrientes."
+          },
+          {
+            "id": 322,
+            "title": "Alface Orgânica",
+            "type": "Salada",
+            "image": "/images/food/alface.png",
+            "price": 3.50,
+            "description": "Alface orgânica crocante e fresca."
+          },
+          {
+            "id": 332,
+            "title": "Salsa Orgânica",
+            "type": "Erva",
+            "image": "/images/food/salsa.png",
+            "price": 1.50,
+            "description": "Salsa fresca para temperar suas refeições."
           }
         ]
       },
@@ -418,14 +442,6 @@ export const SELLERS = [
             "image": "/images/food/beterraba.png",
             "price": 3.00,
             "description": "Beterrabas orgânicas cheias de sabor e nutrientes."
-          },
-          {
-            "id": 36,
-            "title": "Pepino Orgânico",
-            "type": "Legume",
-            "image": "/images/food/pepino.png",
-            "price": 2.80,
-            "description": "Pepino crocante e fresco, ideal para saladas."
           }
         ]
       },
@@ -455,7 +471,23 @@ export const SELLERS = [
             "image": "/images/food/alface.png",
             "price": 3.50,
             "description": "Alface orgânica crocante e fresca."
-          }
+          },
+          {
+            "id": 393,
+            "title": "Alface Orgânica",
+            "type": "Verdura",
+            "image": "/images/food/alface.png",
+            "price": 3.50,
+            "description": "Alface orgânica crocante e fresca."
+          },
+          {
+            "id": 394,
+            "title": "Alface Orgânica",
+            "type": "Verdura",
+            "image": "/images/food/alface.png",
+            "price": 3.50,
+            "description": "Alface orgânica crocante e fresca."
+          },
         ]
       },
       {
