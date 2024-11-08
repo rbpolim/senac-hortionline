@@ -1,4 +1,4 @@
-![MacBook Air - 1 (2)](https://github.com/user-attachments/assets/0f4d9cba-1a70-4bf0-aad4-066bd4223ce5)
+![MacBook Air - 1](https://github.com/user-attachments/assets/41c9cfb5-9aa6-4308-9b0c-e659ac73e315)
 
 ## Projeto Integrador Hortionline
 
