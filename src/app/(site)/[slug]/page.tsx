@@ -4,50 +4,68 @@ import { StarIcon } from "lucide-react";
 import { useParams } from "next/navigation";
 import { useEffect, useState } from 'react';
 
-import { VendorProps } from '@/data/vendors-data'
-import { getVendorBySlug } from '@/utils/get-vendor-by-slug';
+import { SellerProps } from '@/data/sellers-data'
+import { getSellerBySlug } from "@/utils/get-seller-by-slug";
 
 import { Button } from "@/components/ui/button";
+import { ModalProfile } from "@/components/modal-profile";
 import { ProductSection } from "@/components/product-section";
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
+import { Avatar, AvatarImage } from "@/components/ui/avatar";
 
-export default function VendorDetails() {
+export default function SellerPage() {
   const { slug } = useParams<{ slug: string }>();
 
-  const [vendor, setVendor] = useState<VendorProps | null>(null);
+  const [open, setOpen] = useState(false)
+  const [seller, setSeller] = useState<SellerProps | null>(null);
 
   useEffect(() => {
     if (slug) {
-      const vendor = getVendorBySlug(slug);
-      setVendor(vendor!);
+      const seller = getSellerBySlug(slug);
+      setSeller(seller!);
     }
   }, [slug]);
 
-  if (!vendor) {
+  if (!seller) {
     return null;
   }
 
   return (
     <>
+      <ModalProfile
+        isOpen={open}
+        onClose={() => setOpen(false)}
+        seller={seller}
+      />
       <div className="flex items-center gap-x-3">
         <Avatar>
-          <AvatarImage src="https://images.unsplash.com/photo-1633257057305-033b31735407?q=80&w=1776&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
-          <AvatarFallback>CN</AvatarFallback>
+          <AvatarImage src="/test.png" className="object-cover" />
         </Avatar>
-        <div className="flex flex-col gap-y-2 w-full">
-          <h2>{vendor.name}</h2>
-          <div className="flex items-center gap-x-3">
-            <Button size="sm" variant="secondary">Detalhes</Button>
+        <div>
+          <h2 className="text-lg font-bold">{seller.name}</h2>
+          <div className="flex items-center gap-x-2 text-muted-foreground">
+            <span className="text-xs">
+              São Paulo, SP •
+            </span>
+            <span className="flex items-center gap-x-1 text-xs">
+              <StarIcon size={14} />
+              4.6
+            </span>
+          </div>
+          <div className="flex items-center gap-x-3 mt-3">
+            <Button
+              size="sm"
+              variant="secondary"
+              onClick={() => setOpen(true)}
+            >
+              Detalhes
+            </Button>
             <Button size="sm">WhatsApp</Button>
           </div>
-          <span className="flex items-center gap-x-1 text-xs">
-            <StarIcon size={14} />
-            4.6
-          </span>
+
         </div>
       </div>
       {/* @ts-expect-error verificar */}
-      <ProductSection title="Products" products={vendor.products} />
+      <ProductSection products={seller.products} />
     </>
   );
 }

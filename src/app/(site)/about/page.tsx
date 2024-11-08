@@ -1,4 +1,4 @@
-export default function About() {
+export default function AboutPage() {
   return (
     <div className="flex flex-col items-center">
       <h1 className="font-bold text-2xl">

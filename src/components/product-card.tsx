@@ -21,6 +21,8 @@ export function ProductCard({
   price,
   image,
 }: Props) {
+  console.log(image)
+
   return (
     <Card>
       <CardHeader>
@@ -29,12 +31,14 @@ export function ProductCard({
       </CardHeader>
       <CardContent>
         <div className="relative aspect-video">
-          <Image
-            alt="Product"
-            src={image}
-            fill
-            className="object-cover rounded-md"
-          />
+          {!!image && (
+            <Image
+              alt="Product"
+              src={image}
+              fill
+              className="object-cover rounded-md"
+            />
+          )}
         </div>
       </CardContent>
       {/* <CardFooter>

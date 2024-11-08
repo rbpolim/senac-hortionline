@@ -6,7 +6,7 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: "HortiOnline",
-  description: "HortiOnline is a platform for buying and selling plants.",
+  description: "Somos uma plataforma dedicada a conectar pessoas que buscam legumes e vegetais frescos e orgânicos com produtores locais.",
 };
 
 export default function RootLayout({
