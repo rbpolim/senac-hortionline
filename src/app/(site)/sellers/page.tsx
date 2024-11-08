@@ -5,7 +5,7 @@ import { SellerCard } from "@/components/seller-card";
 export default function SellersPage() {
   return (
     <div className="flex flex-col items-start">
-      <h1 className="font-bold text-2xl">Produtores</h1>
+      <h1 className="font-bold text-2xl text-green-800">Produtores</h1>
       <p className="text-sm text-muted-foreground mt-1 leading-relaxed">
         Aqui você encontra os melhores produtores de alimentos orgânicos da
         região.

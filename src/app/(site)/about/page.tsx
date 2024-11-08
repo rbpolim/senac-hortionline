@@ -1,7 +1,7 @@
 export default function AboutPage() {
   return (
     <div className="flex flex-col items-center text-center">
-      <h1 className="font-bold text-2xl">
+      <h1 className="font-bold text-2xl text-green-800">
         Sobre a nossa plataforma de alimentos orgânicos
       </h1>
       <p className="text-sm text-muted-foreground text-center leading-relaxed mt-10">

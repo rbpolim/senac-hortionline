@@ -6,11 +6,11 @@ import { Button } from "@/components/ui/button";
 export default function Home() {
   return (
     <div>
-      <section className="px-6 py-12 text-center">
-        <div className="max-w-md mx-auto">
-          <h2 className="text-3xl font-bold text-green-800">Orgânico</h2>
-          <h2 className="text-3xl font-bold text-green-800">Sustentável</h2>
-          <h2 className="text-3xl font-bold text-green-800">e Fresco</h2>
+      <section className="py-8 text-center">
+        <div className="max-w-sm mx-auto">
+          <h2 className="text-6xl font-bold text-left leading-tight font-sans text-green-800">Orgânico</h2>
+          <h2 className="text-5xl font-bold text-left font-sans leading-tight text-green-800">Sustentável</h2>
+          <h2 className="text-5xl font-bold text-left font-sans leading-tight text-green-800">e Fresco</h2>
           <p className="mt-4 text-sm text-muted-foreground">
             Produtos cultivados com amor e respeito à natureza, entregues diretamente do campo para a sua mesa.
           </p>
