@@ -8,10 +8,10 @@ export default function Home() {
     <div>
       <section className="py-8 text-center">
         <div className="max-w-sm mx-auto">
-          <h2 className="text-6xl font-bold text-left leading-tight font-sans text-green-800">Orgânico</h2>
-          <h2 className="text-5xl font-bold text-left font-sans leading-tight text-green-800">Sustentável</h2>
-          <h2 className="text-5xl font-bold text-left font-sans leading-tight text-green-800">e Fresco</h2>
-          <p className="mt-4 text-sm text-muted-foreground">
+          <h2 className="text-6xl font-bold text-left font-sans text-orange-900">Orgânico,</h2>
+          <h2 className="text-3xl font-bold text-left font-sans text-orange-900">Sustentável,</h2>
+          <h2 className="text-lg font-bold text-left font-sans text-orange-500">Fresco!</h2>
+          <p className="mt-8 text-sm text-muted-foreground">
             Produtos cultivados com amor e respeito à natureza, entregues diretamente do campo para a sua mesa.
           </p>
           <Button asChild size="lg" variant="secondary" className="mt-8">
