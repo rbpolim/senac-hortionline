@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from 'react';
 import { useParams } from "next/navigation";
-import { ChevronLeftCircle, StarIcon } from "lucide-react";
+import { StarIcon } from "lucide-react";
 
 import { Seller } from '@/data/sellers-data'
 import { getSellerBySlug } from "@/utils/get-seller-by-slug";
@@ -11,7 +11,6 @@ import { Button } from "@/components/ui/button";
 import { ModalProfile } from "@/components/modal-profile";
 import { ProductSection } from "@/components/product-section";
 import { Avatar, AvatarImage } from "@/components/ui/avatar";
-import Link from "next/link";
 
 export default function SellerPage() {
   const { slug } = useParams<{ slug: string }>();
@@ -37,12 +36,12 @@ export default function SellerPage() {
         onClose={() => setOpen(false)}
         seller={seller}
       />
-      <div className="flex items-center gap-x-4">
-        <Link href="/sellers">
-          <ChevronLeftCircle size={32} className="text-muted-foreground" />
-        </Link>
+      {/* <div className="flex items-center gap-x-4"> */}
+        {/* <Link href="/sellers"> */}
+          {/* <ChevronLeftCircle size={32} className="text-muted-foreground" /> */}
+        {/* </Link> */}
         {/* <h2 className="self-center text-lg font-bold">{seller.name}</h2> */}
-      </div>
+      {/* </div> */}
       <div className="flex items-center gap-x-4 mt-3">
         <Avatar>
           <AvatarImage src={seller.avatarUrl} className="object-cover" />

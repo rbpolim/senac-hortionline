@@ -1,6 +1,6 @@
 export default function AboutPage() {
   return (
-    <div className="flex flex-col items-center">
+    <div className="flex flex-col items-center text-center">
       <h1 className="font-bold text-2xl">
         Sobre a nossa plataforma de alimentos orgânicos
       </h1>

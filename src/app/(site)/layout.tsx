@@ -9,7 +9,7 @@ export default function WebsiteLayout({
   return (
     <div className="min-h-screen font-mono flex flex-col">
       <Header />
-      <main className="py-28 px-6 h-full flex-1">{children}</main>
+      <main className="py-24 px-6 h-full flex-1">{children}</main>
       <Footer />
     </div>
   );

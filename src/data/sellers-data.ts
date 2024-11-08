@@ -3,10 +3,10 @@ export const SELLERS = [
     "id": 1,
     "avatarUrl": "/images/sellers/seller-1.png",
     "rating": 4.6,
-    "name": "Organicos do Vale",
+    "name": "Orgânicos do Vale",
     "description": "Produtor local de alimentos frescos e orgânicos.",
     "slug": "organicos-do-vale",
-    "about": "A Organicos do Vale é uma empresa familiar que cultiva produtos orgânicos há mais de 20 anos, comprometida com a sustentabilidade e a saúde dos clientes.",
+    "about": "A Orgânicos do Vale é uma empresa familiar que cultiva produtos orgânicos há mais de 20 anos, comprometida com a sustentabilidade e a saúde dos clientes.",
     "address": {
       "street": "Rua das Flores",
       "number": "123",
