@@ -473,7 +473,7 @@ export const SELLERS = [
             "description": "Alface orgânica crocante e fresca."
           },
           {
-            "id": 393,
+            "id": 39,
             "title": "Alface Orgânica",
             "type": "Verdura",
             "image": "/images/food/alface.png",
@@ -481,7 +481,7 @@ export const SELLERS = [
             "description": "Alface orgânica crocante e fresca."
           },
           {
-            "id": 394,
+            "id": 39,
             "title": "Alface Orgânica",
             "type": "Verdura",
             "image": "/images/food/alface.png",
@@ -501,22 +501,6 @@ export const SELLERS = [
             "price": 2.00,
             "description": "Manjericão fresco para temperos."
           },
-          {
-            "id": 41,
-            "title": "Salsa Orgânica",
-            "type": "Erva",
-            "image": "/images/food/salsa.png",
-            "price": 1.50,
-            "description": "Salsa fresca para temperar suas refeições."
-          },
-          {
-            "id": 42,
-            "title": "Cebolinha Orgânica",
-            "type": "Erva",
-            "image": "/images/food/cenoura.png",
-            "price": 1.80,
-            "description": "Cebolinha orgânica para adicionar sabor aos pratos."
-          }
         ]
       },
       {
@@ -538,14 +522,6 @@ export const SELLERS = [
             "price": 3.50,
             "description": "Alface crocante, ideal para saladas."
           },
-          {
-            "id": 45,
-            "title": "Acelga Orgânica",
-            "type": "Salada",
-            "image": "/images/food/salsa.png",
-            "price": 2.90,
-            "description": "Acelga fresca e crocante, ótima para pratos leves."
-          }
         ]
       }
     ]
