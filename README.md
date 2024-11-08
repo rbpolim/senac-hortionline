@@ -26,6 +26,7 @@ O projeto usa os seguintes recursos:
 - Tema light e dark para melhorar a experiência do usuário.
 - Responsividade para dispositivos móveis e desktop.
 - Padronização de commits (feat/fix/chore/style/docs);
+- 
 
 ## Techs Stacks
 
