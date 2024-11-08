@@ -4,7 +4,7 @@ import { StarIcon } from "lucide-react";
 import { useParams } from "next/navigation";
 import { useEffect, useState } from 'react';
 
-import { SellerProps } from '@/data/sellers-data'
+import { Seller } from '@/data/sellers-data'
 import { getSellerBySlug } from "@/utils/get-seller-by-slug";
 
 import { Button } from "@/components/ui/button";
@@ -16,7 +16,7 @@ export default function SellerPage() {
   const { slug } = useParams<{ slug: string }>();
 
   const [open, setOpen] = useState(false)
-  const [seller, setSeller] = useState<SellerProps | null>(null);
+  const [seller, setSeller] = useState<Seller | null>(null);
 
   useEffect(() => {
     if (slug) {
@@ -28,6 +28,8 @@ export default function SellerPage() {
   if (!seller) {
     return null;
   }
+
+  console.log('seller', seller)
 
   return (
     <>
@@ -64,8 +66,8 @@ export default function SellerPage() {
 
         </div>
       </div>
-      {/* @ts-expect-error verificar */}
-      <ProductSection products={seller.products} />
+      {/* @ts-expect-error TODO */}
+      <ProductSection productsCategories={seller.productsCategories} />
     </>
   );
 }

@@ -15,7 +15,7 @@ export default function Home() {
             Produtos cultivados com amor e respeito à natureza, entregues diretamente do campo para a sua mesa.
           </p>
           <Button asChild size='lg' className="mt-8 bg-green-700 text-white">
-            <Link href="/market-vender">
+            <Link href="/sellers">
               Explore Agora
             </Link>
           </Button>
@@ -106,8 +106,10 @@ export default function Home() {
         <div className="max-w-md mx-auto">
           <h2 className="text-3xl font-bold">Pronto para experimentar o melhor da alimentação orgânica?</h2>
           <p className="mt-4 text-lg">Faça seu pedido hoje e receba os melhores produtos direto da fazenda para sua mesa.</p>
-          <Button size="lg" variant="secondary" className="mt-8">
-            Comece Agora
+          <Button asChild size="lg" variant="secondary" className="mt-8">
+            <Link href="/sellers">
+              Comece Agora
+            </Link>
           </Button>
         </div>
       </section>
