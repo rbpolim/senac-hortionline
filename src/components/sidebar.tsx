@@ -22,7 +22,7 @@ export const Sidebar = () => {
       isActive: pathname === "/about",
     },
     {
-      label: "VENDEDORES",
+      label: "PRODUTORES",
       path: "/sellers",
       isActive: pathname === "/sellers",
     },
@@ -31,8 +31,7 @@ export const Sidebar = () => {
   return (
     <div className="flex flex-col h-full overflow-y-auto border-r shadow-sm">
       <div className="p-2 pt-8 flex items-center justify-center">
-        {/* <Logo /> */}
-        <Image src="/logo-text.svg" alt="logo" width={110} height={110} />
+        <Image src="/logo-text.svg" alt="logo" width={80} height={80} />
       </div>
       <nav className="flex flex-col gap-8 items-start mt-10 transition font-mono text-center">
         {routes.map((route) => (

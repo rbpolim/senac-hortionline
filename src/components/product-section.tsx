@@ -1,5 +1,7 @@
-import { ProductCard } from "@/components/product-card";
+// import { ProductCard } from "@/components/Produ";
 import { ProductsCategories } from "@/data/sellers-data";
+import { ProductCard } from "./ProductCard";
+
 
 type ProductSectionProps = {
   productsCategories: ProductsCategories[];
@@ -12,14 +14,16 @@ export function ProductSection({ productsCategories }: ProductSectionProps) {
         {productsCategories.map((productCategory) => (
           <div key={productCategory.title}>
             <h2 className="text-lg font-bold">{productCategory.title}</h2>
-            <div className="flex space-x-2 overflow-x-auto mt-2 pb-4">
+            <div className="flex space-x-2 overflow-x-scroll last:mr-[-23px] no-scrollbar mt-2 pb-4">
               {productCategory.products.map((item) => (
-                <ProductCard
-                  key={item.id}
-                  title={item.title}
-                  image={item.image}
-                  price={item.price}
-                />
+                <div key={item.id}>
+                  <ProductCard
+                    key={item.id}
+                    title={item.title}
+                    price={item.price}
+                    image={item.image}
+                  />  
+                </div>
               ))}
             </div>
           </div>

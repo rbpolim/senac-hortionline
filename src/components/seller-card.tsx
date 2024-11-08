@@ -48,7 +48,7 @@ export function SellerCard({
         </div>
       </CardContent>
       <CardFooter>
-        <Button asChild variant="secondary" className="w-full">
+        <Button asChild className="w-full">
           <Link href={slug}>
             View More
           </Link>
