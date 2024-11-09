@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/button";
 export default function Home() {
   return (
     <div>
-      <section className="pt-8 pb-12 text-center">
+      <section className="pt-8 pb-16 text-center">
         <div className="relative max-w-sm mx-auto">
           <Image
             src="/logo.svg"
