@@ -7,8 +7,15 @@ export default function Home() {
   return (
     <div>
       <section className="py-8 text-center">
-        <div className="max-w-sm mx-auto">
-          <h2 className="text-6xl font-bold text-left font-sans text-orange-900">Orgânico,</h2>
+        <div className="relative max-w-sm mx-auto">
+          <Image
+            src="/logo.svg"
+            alt="Fresh products"
+            className="object-cover absolute right-0 top-8 -z-10 opacity-10"
+            width={180}
+            height={180}
+          />
+          <h2 className="relative z-10 text-6xl font-bold text-left font-sans text-orange-900">Orgânico,</h2>
           <h2 className="text-3xl font-bold text-left font-sans text-orange-900">Sustentável,</h2>
           <h2 className="text-lg font-bold text-left font-sans text-orange-500">Fresco!</h2>
           <p className="mt-8 text-sm text-muted-foreground">
