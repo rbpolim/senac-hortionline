@@ -1,9 +1,9 @@
 import { useEffect, useState } from "react";
+import { Clock, House, Mail, Phone, Store, CreditCard } from "lucide-react";
 
 import { Modal } from "@/components/modal";
 import { SellerProps } from "@/data/sellers-data";
 import { formatAddress } from "@/utils/format-address";
-import { Mail, Phone } from "lucide-react";
 
 type Props = {
   isOpen: boolean;
@@ -37,26 +37,36 @@ export function ModalProfile({
     >
       <div className="flex flex-col gap-y-6">
         <div>
-          <h3 className="font-bold">Sobre</h3>
+          <h3 className="font-bold">
+            <Store size={14} className="inline-block mr-1" />
+            Sobre
+          </h3>
           <p className="text-sm text-muted-foreground mt-1">{seller.about}</p>
         </div>
         <div>
-          <h3 className="font-bold">Contato</h3>
+          <h3 className="font-bold">
+            <Phone size={14} className="inline-block mr-1" />
+            Contato
+          </h3>
           <p className="text-sm text-muted-foreground mt-1">
-            <Phone size={10} className="inline-block mr-1" />
-            {seller.contact.phone}
+          • {seller.contact.phone}
           </p>
           <p className="text-sm text-muted-foreground">
-            <Mail size={10} className="inline-block mr-1" />
-            {seller.contact.email}
+          • {seller.contact.email}
           </p>
         </div>
         <div>
-          <h3 className="font-bold">Endereço</h3>
+          <h3 className="font-bold">
+            <House size={14} className="inline-block mr-1" />
+            Endereço
+          </h3>
           <p className="text-sm text-muted-foreground  mt-1">{formattedAddress}</p>
         </div>
         <div>
-          <h3 className="font-bold">Horários</h3>
+          <h3 className="font-bold">
+            <Clock size={14} className="inline-block mr-1" />
+            Horários
+          </h3>
           <ul className="flex items-center  mt-1">
             {seller.dateTimeWork.days.map((day, index) => (
               <li key={index} className="text-sm text-muted-foreground">{day} • {' '}</li>
@@ -65,7 +75,10 @@ export function ModalProfile({
           <p className="text-sm text-muted-foreground">{seller.dateTimeWork.hours}</p>
         </div>
         <div>
-          <h3 className="font-bold">Métodos de pagamento</h3>
+          <h3 className="font-bold">
+            <CreditCard size={14} className="inline-block mr-1" />
+            Métodos de pagamento
+          </h3>
           <ul className="mt-1">
             {seller.methodPayments.map((method, index) => (
               <li key={index} className="text-sm text-muted-foreground">• {method}</li>

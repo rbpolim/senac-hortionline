@@ -11,13 +11,15 @@ export default function Home() {
           <Image
             src="/logo.svg"
             alt="Fresh products"
-            className="object-cover absolute right-0 top-8 -z-10 opacity-20"
+            className="object-cover absolute right-0 top-8 -z-10 opacity-10"
             width={180}
             height={180}
           />
-          <h2 className="relative z-10 text-5xl font-bold text-left font-sans text-orange-900">Orgânico,</h2>
-          <h2 className="text-4xl font-bold text-left font-sans text-orange-800">Sustentável,</h2>
-          <h2 className="text-lg font-bold text-left font-sans text-orange-500">Fresco!</h2>
+          <h2 className="relative z-10 text-6xl font-bold text-left font-sans from-orange-900 to-orange-500 bg-gradient-to-r bg-clip-text text-transparent leading-tight">
+            Orgânico,
+          </h2>
+          <h2 className="z-10 text-5xl font-bold text-left font-sans from-orange-900 to-orange-600 bg-gradient-to-r bg-clip-text text-transparent">Sustentável,</h2>
+          <h2 className="text-2xl font-bold text-left font-sans text-orange-600">Fresco!</h2>
           <p className="mt-8 text-sm text-muted-foreground">
             Produtos cultivados com amor e respeito à natureza, entregues diretamente do campo para a sua mesa.
           </p>

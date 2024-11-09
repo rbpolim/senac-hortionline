@@ -11,7 +11,7 @@ export function ProductCard({
   price
 }: Props) {
   return (
-    <div className="flex-shrink-0 w-[110px] max-w-xs mx-auto bg-background rounded-lg shadow-md overflow-hidden border border-gray-200">
+    <div className="flex-shrink-0 w-[110px] max-w-xs mx-auto bg-card text-card-foreground shadow rounded-lg overflow-hidden border border-gray-200">
       <img src={image} alt="test" className="w-full h-16 object-cover brightness-80" />
       <div className="p-2">
         <h3 className="text-sm">{title}</h3>

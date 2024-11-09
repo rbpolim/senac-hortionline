@@ -36,18 +36,12 @@ export default function SellerPage() {
         onClose={() => setOpen(false)}
         seller={seller}
       />
-      {/* <div className="flex items-center gap-x-4"> */}
-        {/* <Link href="/sellers"> */}
-          {/* <ChevronLeftCircle size={32} className="text-muted-foreground" /> */}
-        {/* </Link> */}
-        {/* <h2 className="self-center text-lg font-bold">{seller.name}</h2> */}
-      {/* </div> */}
-      <div className="flex items-center gap-x-4 mt-3">
+      <div className="flex items-center gap-x-4">
         <Avatar>
           <AvatarImage src={seller.avatarUrl} className="object-cover" />
         </Avatar>
         <div>
-          <h2 className="text-lg font-bold">{seller.name}</h2>
+          <h2 className="text-2xl font-bold">{seller.name}</h2>
           <div className="flex items-center gap-x-2 text-muted-foreground">
             <span className="text-xs">
               São Paulo, SP •
