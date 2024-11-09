@@ -37,38 +37,38 @@ export function ModalProfile({
     >
       <div className="flex flex-col gap-y-6">
         <div>
-          <h3 className="font-bold text-sm">Sobre</h3>
-          <p className="text-xs text-muted-foreground mt-1">{seller.about}</p>
+          <h3 className="font-bold">Sobre</h3>
+          <p className="text-sm text-muted-foreground mt-1">{seller.about}</p>
         </div>
         <div>
-          <h3 className="font-bold text-sm">Contato</h3>
-          <p className="text-xs text-muted-foreground mt-1">
+          <h3 className="font-bold">Contato</h3>
+          <p className="text-sm text-muted-foreground mt-1">
             <Phone size={10} className="inline-block mr-1" />
             {seller.contact.phone}
           </p>
-          <p className="text-xs text-muted-foreground">
+          <p className="text-sm text-muted-foreground">
             <Mail size={10} className="inline-block mr-1" />
             {seller.contact.email}
           </p>
         </div>
         <div>
-          <h3 className="font-bold text-sm">Endereço</h3>
-          <p className="text-xs text-muted-foreground  mt-1">{formattedAddress}</p>
+          <h3 className="font-bold">Endereço</h3>
+          <p className="text-sm text-muted-foreground  mt-1">{formattedAddress}</p>
         </div>
         <div>
-          <h3 className="font-bold text-sm">Horários</h3>
+          <h3 className="font-bold">Horários</h3>
           <ul className="flex items-center  mt-1">
             {seller.dateTimeWork.days.map((day, index) => (
-              <li key={index} className="text-xs text-muted-foreground">{day} • {' '}</li>
+              <li key={index} className="text-sm text-muted-foreground">{day} • {' '}</li>
             ))}
           </ul>
-          <p className="text-xs text-muted-foreground">{seller.dateTimeWork.hours}</p>
+          <p className="text-sm text-muted-foreground">{seller.dateTimeWork.hours}</p>
         </div>
         <div>
-          <h3 className="font-bold text-sm">Métodos de pagamento</h3>
+          <h3 className="font-bold">Métodos de pagamento</h3>
           <ul className="mt-1">
             {seller.methodPayments.map((method, index) => (
-              <li key={index} className="text-xs text-muted-foreground">• {method}</li>
+              <li key={index} className="text-sm text-muted-foreground">• {method}</li>
             ))}
           </ul>
         </div>
