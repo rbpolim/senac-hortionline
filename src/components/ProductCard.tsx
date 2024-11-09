@@ -1,9 +1,10 @@
+import Image from "next/image"
+
 type Props = {
   title: string
   price: number
   image: string
 }
-
 
 export function ProductCard({
   title,
@@ -11,8 +12,15 @@ export function ProductCard({
   price
 }: Props) {
   return (
-    <div className="flex-shrink-0 w-[110px] max-w-xs mx-auto bg-card text-card-foreground shadow rounded-lg overflow-hidden border border-gray-200">
-      <img src={image} alt="test" className="w-full h-16 object-cover brightness-80" />
+    <div className="flex-shrink-0 w-[110px] max-w-xs mx-auto bg-card text-card-foreground shadow rounded-lg overflow-hidden border">
+      <div className="relative h-16">
+        <Image
+          src={image}
+          fill
+          alt={title}
+          className="w-full object-cover brightness-80"
+        />
+      </div>
       <div className="p-2">
         <h3 className="text-sm">{title}</h3>
         <div className="mt-3 flex items-center justify-between">
@@ -20,5 +28,5 @@ export function ProductCard({
         </div>
       </div>
     </div>
-  ) 
+  )
 }

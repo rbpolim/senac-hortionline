@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { Clock, House, Mail, Phone, Store, CreditCard } from "lucide-react";
+import { Clock, House, Phone, Store, CreditCard } from "lucide-react";
 
 import { Modal } from "@/components/modal";
 import { SellerProps } from "@/data/sellers-data";
