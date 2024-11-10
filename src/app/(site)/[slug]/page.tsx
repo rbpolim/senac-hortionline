@@ -50,13 +50,13 @@ export default function SellerPage() {
             </span>
           </div>
           <div className="flex items-center gap-x-3 mt-2">
-            <Button variant="secondary" onClick={() => setOpen(true)}>
-              Detalhes
+            <Button size="sm" variant="secondary" onClick={() => setOpen(true)}>
               <PlusIcon size={16} />
+              Detalhes
             </Button>
-            <Button>
-              WhatsApp
+            <Button size="sm">
               <Phone size={16} />
+              WhatsApp
             </Button>
           </div>
         </div>

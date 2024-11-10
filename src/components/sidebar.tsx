@@ -1,4 +1,3 @@
-
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
@@ -31,7 +30,13 @@ export const Sidebar = () => {
   return (
     <div className="flex flex-col h-full overflow-y-auto border-r shadow-sm">
       <div className="p-2 pt-8 flex items-center justify-center">
-        <Image src="/logo-text.svg" alt="logo" width={120} height={120} className="opacity-90" />
+        <Image
+          src="/logo.svg"
+          alt="logo"
+          width={120}
+          height={120}
+          className="opacity-90"
+        />
       </div>
       <nav className="flex flex-col gap-8 items-start mt-14 transition font-mono text-center">
         {routes.map((route) => (
@@ -39,7 +44,7 @@ export const Sidebar = () => {
             key={route.path}
             href={route.path}
             className={cn(
-              "w-full p-6 text-3xl transition text-muted-foreground",
+              "p-6 text-3xl bg-muted/80 font-black transition text-muted-foreground",
               route.isActive && "font-black text-emerald-800"
             )}
           >

@@ -13,11 +13,11 @@ Somos uma plataforma que conecta pessoas interessadas em legumes e vegetais fres
 
 ## Colaboradores
 
-- [Rodrigo Polim](<https://github.com/rbpolim>)
-- [Yuki](<https://github.com/yukitnak>)
-- [Vitor](<https://github.com/victort89>)
-- [Vanessa](<https://github.com/Van02tavares>)
-- [Samuel](<https://github.com/radagoon>)
+- [Rodrigo Polim](https://github.com/rbpolim)
+- [Yuki](https://github.com/yukitnak)
+- [Vitor](https://github.com/victort89)
+- [Vanessa](https://github.com/Van02tavares)
+- [Samuel](https://github.com/radagoon)
 
 ## Features
 
@@ -26,18 +26,17 @@ O projeto usa os seguintes recursos:
 - Tema light e dark para melhorar a experiência do usuário.
 - Responsividade para dispositivos móveis e desktop.
 - Padronização de commits (feat/fix/chore/style/docs);
-- 
+-
 
 ## Techs Stacks
 
 - TypeScript
 - NextJS
 - TailwindCSS
-- Shadcn/ui 
+- Shadcn/ui
 
-## Demo 
+## Demo
 
 - [Hortionline](https://senac-hortionline.vercel.app)
 
 TODO
-- overflox hidden

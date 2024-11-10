@@ -2,27 +2,36 @@ import Link from "next/link";
 import Image from "next/image";
 
 import { Button } from "@/components/ui/button";
+import { ArrowUpRight } from "lucide-react";
 
 export default function Home() {
   return (
     <div>
       <section className="pt-8 pb-16 text-center">
-        <div className="relative max-w-sm mx-auto">
-          <h2 className="relative z-10 text-6xl font-bold text-center font-sans bg-gradient-to-r from-orange-900 via-orange-500 to-orange-900 bg-clip-text text-transparent leading-tight">
+        <div className="relative max-w-2xl mx-auto">
+          <h2 className="relative z-10 text-6xl md:text-8xl font-black text-center font-sans bg-gradient-to-r from-orange-900 via-orange-500 to-orange-900 bg-clip-text text-transparent leading-tight">
             Orgânico,
           </h2>
-          <h2 className="relative z-10 text-6xl font-bold text-center font-sans bg-gradient-to-r from-orange-900 via-orange-400 to-orange-900 bg-clip-text text-transparent leading-tight">
+          <h2 className="relative z-10 text-6xl md:text-8xl font-black text-center font-sans bg-gradient-to-r from-orange-900 via-orange-400 to-orange-900 bg-clip-text text-transparent leading-tight">
             Sustentável,
           </h2>
-          <h2 className="text-2xl font-bold text-center font-sans text-orange-600">
+          <h2 className="text-2xl font-black md:text-6xl  text-center font-sans text-orange-700">
             Fresco!
           </h2>
-          <p className="mt-8 text-sm text-muted-foreground">
+          <p className="mt-8 text-muted-foreground">
             Produtos cultivados com amor e respeito à natureza, entregues
             diretamente do campo para a sua mesa.
           </p>
-          <Button asChild size="lg" variant="secondary" className="mt-12">
-            <Link href="/sellers">Comece Agora</Link>
+          <Button
+            asChild
+            size="lg"
+            variant="secondary"
+            className="w-full mt-12"
+          >
+            <Link href="/sellers">
+              Comece Agora
+              <ArrowUpRight className="w-6 h-6" />
+            </Link>
           </Button>
         </div>
       </section>
@@ -46,7 +55,7 @@ export default function Home() {
             Veja como é fácil ter alimentos frescos e orgânicos em sua casa.
           </p>
 
-          <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="mt-8 grid grid-cols-1 items-center justify-center sm:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="bg-green-100 p-6 rounded-lg shadow-lg">
               <h3 className="text-xl font-semibold text-green-700">
                 Escolha Seus Produtos
@@ -84,7 +93,7 @@ export default function Home() {
             Oferecemos mais do que produtos orgânicos, entregamos um compromisso
             com a sua saúde e com o planeta.
           </p>
-          <div className="mt-8 space-y-6">
+          <div className="mt-8 space-y-14">
             <div className="flex items-center space-x-4">
               <div className="bg-green-100 p-3 rounded-full">
                 <Image

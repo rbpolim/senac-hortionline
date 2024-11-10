@@ -10,7 +10,7 @@ export default function SellersPage() {
         Aqui você encontra os melhores produtores de alimentos orgânicos da
         região.
       </p>
-      <div className="flex flex-col gap-6 mt-8">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg: gap-6 mt-8">
         {SELLERS.map((seller) => (
           <SellerCard
             key={seller.id}

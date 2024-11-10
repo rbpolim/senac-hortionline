@@ -1,6 +1,6 @@
-import Image from 'next/image'
-import Link from 'next/link'
-import { Plus, StarIcon } from 'lucide-react'
+import Image from "next/image";
+import Link from "next/link";
+import { Plus, StarIcon } from "lucide-react";
 
 import {
   Card,
@@ -8,33 +8,27 @@ import {
   CardDescription,
   CardFooter,
   CardHeader,
-  CardTitle
-} from '@/components/ui/card'
-import { Button } from '@/components/ui/button'
+  CardTitle,
+} from "@/components/ui/card";
+import { Button } from "@/components/ui/button";
 
 type Props = {
-  title: string
-  description: string
-  rating: number
-  image: string
-  slug: string
-}
+  title: string;
+  description: string;
+  rating: number;
+  image: string;
+  slug: string;
+};
 
-export function SellerCard({
-  title,
-  description,
-  rating,
-  image,
-  slug
-}: Props) {
+export function SellerCard({ title, description, rating, image, slug }: Props) {
   return (
     <Card>
       <CardHeader>
         <CardTitle>{title}</CardTitle>
-        <CardDescription className='text-sm'>{description}</CardDescription>
+        <CardDescription className="text-sm">{description}</CardDescription>
         <span className="text-sm font-bold">
-        <StarIcon size={16} className="inline-block mr-1" />
-        {rating}
+          <StarIcon size={16} className="inline-block mr-1" />
+          {rating}
         </span>
       </CardHeader>
       <CardContent>
@@ -50,11 +44,11 @@ export function SellerCard({
       <CardFooter>
         <Button asChild className="w-full">
           <Link href={slug}>
+            <Plus size={16} className="inline-block mr-1" />
             Mais informações
-          <Plus size={16} className="inline-block mr-1" />
           </Link>
         </Button>
       </CardFooter>
     </Card>
-  )
+  );
 }
