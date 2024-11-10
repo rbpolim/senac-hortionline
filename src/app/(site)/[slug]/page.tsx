@@ -1,10 +1,10 @@
-'use client'
+"use client";
 
-import { useEffect, useState } from 'react';
+import { useEffect, useState } from "react";
 import { useParams } from "next/navigation";
-import { StarIcon } from "lucide-react";
+import { Phone, PlusIcon, StarIcon } from "lucide-react";
 
-import { Seller } from '@/data/sellers-data'
+import { Seller } from "@/data/sellers-data";
 import { getSellerBySlug } from "@/utils/get-seller-by-slug";
 
 import { Button } from "@/components/ui/button";
@@ -15,7 +15,7 @@ import { Avatar, AvatarImage } from "@/components/ui/avatar";
 export default function SellerPage() {
   const { slug } = useParams<{ slug: string }>();
 
-  const [open, setOpen] = useState(false)
+  const [open, setOpen] = useState(false);
   const [seller, setSeller] = useState<Seller | null>(null);
 
   useEffect(() => {
@@ -43,25 +43,22 @@ export default function SellerPage() {
         <div>
           <h2 className="text-2xl font-bold">{seller.name}</h2>
           <div className="flex items-center gap-x-2 text-muted-foreground">
-            <span className="text-xs">
-              São Paulo, SP •
-            </span>
+            <span className="text-xs">São Paulo, SP •</span>
             <span className="flex items-center gap-x-1 text-xs">
               <StarIcon size={14} />
               4.6
             </span>
           </div>
           <div className="flex items-center gap-x-3 mt-2">
-            <Button
-              size="sm"
-              variant="secondary"
-              onClick={() => setOpen(true)}
-            >
+            <Button variant="secondary" onClick={() => setOpen(true)}>
               Detalhes
+              <PlusIcon size={16} />
             </Button>
-            <Button size="sm">WhatsApp</Button>
+            <Button>
+              WhatsApp
+              <Phone size={16} />
+            </Button>
           </div>
-
         </div>
       </div>
       {/* @ts-expect-error TODO */}
