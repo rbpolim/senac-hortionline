@@ -36,12 +36,12 @@ export default function SellerPage() {
         onClose={() => setOpen(false)}
         seller={seller}
       />
-      <div className="flex items-center gap-x-4">
+      <div className="flex items-center gap-x-3">
         <Avatar>
           <AvatarImage src={seller.avatarUrl} className="object-cover" />
         </Avatar>
         <div>
-          <h2 className="text-2xl font-bold">{seller.name}</h2>
+          <h2 className="text-lg font-bold">{seller.name}</h2>
           <div className="flex items-center gap-x-2 text-muted-foreground">
             <span className="text-xs">São Paulo, SP •</span>
             <span className="flex items-center gap-x-1 text-xs">
