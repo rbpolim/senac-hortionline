@@ -14,10 +14,10 @@ Somos uma plataforma que conecta pessoas interessadas em legumes e vegetais fres
 ## Colaboradores
 
 - [Rodrigo Polim](https://github.com/rbpolim)
-- [Yuki](https://github.com/yukitnak)
-- [Vitor](https://github.com/victort89)
-- [Vanessa](https://github.com/Van02tavares)
 - [Samuel](https://github.com/radagoon)
+- [Vanessa](https://github.com/Van02tavares)
+- [Vitor](https://github.com/victort89)
+- [Yuki](https://github.com/yukitnak)
 
 ## Features
 
@@ -38,5 +38,3 @@ O projeto usa os seguintes recursos:
 ## Demo
 
 - [Hortionline](https://senac-hortionline.vercel.app)
-
-TODO

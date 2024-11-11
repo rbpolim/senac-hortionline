@@ -12,7 +12,7 @@ export default function Home() {
           <h2 className="relative z-10 text-6xl md:text-8xl font-black text-center font-sans bg-gradient-to-r from-orange-900 via-orange-500 to-orange-900 bg-clip-text text-transparent leading-tight">
             Orgânico,
           </h2>
-          <h2 className="relative z-10 text-6xl md:text-8xl font-black text-center font-sans bg-gradient-to-r from-orange-900 via-orange-400 to-orange-900 bg-clip-text text-transparent leading-tight">
+          <h2 className="relative z-10 text-5xl md:text-8xl font-black text-center font-sans bg-gradient-to-r from-orange-900 via-orange-400 to-orange-900 bg-clip-text text-transparent leading-tight">
             Sustentável,
           </h2>
           <h2 className="text-2xl font-black md:text-6xl  text-center font-sans text-orange-700">

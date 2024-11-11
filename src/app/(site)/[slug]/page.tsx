@@ -36,7 +36,7 @@ export default function SellerPage() {
         onClose={() => setOpen(false)}
         seller={seller}
       />
-      <div className="flex items-center gap-x-3">
+      <div className="flex items-center justify-center gap-x-3 max-w-2xl mx-auto">
         <Avatar>
           <AvatarImage src={seller.avatarUrl} className="object-cover" />
         </Avatar>
@@ -61,8 +61,10 @@ export default function SellerPage() {
           </div>
         </div>
       </div>
-      {/* @ts-expect-error TODO */}
-      <ProductSection productsCategories={seller.productsCategories} />
+      <div className="flex items-center justify-center mx-auto max-w-3xl">
+        {/* @ts-expect-error TODO */}
+        <ProductSection productsCategories={seller.productsCategories} />
+      </div>
     </>
   );
 }
