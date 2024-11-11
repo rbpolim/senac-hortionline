@@ -1,4 +1,4 @@
-![MacBook Air - 1](https://github.com/user-attachments/assets/41c9cfb5-9aa6-4308-9b0c-e659ac73e315)
+![MacBook Air - 2](https://github.com/user-attachments/assets/8c1cba4f-7897-4f19-bcf7-341cab5170e1)
 
 ## Projeto Integrador Hortionline
 
@@ -26,7 +26,7 @@ O projeto usa os seguintes recursos:
 - Tema light e dark para melhorar a experiência do usuário.
 - Responsividade para dispositivos móveis e desktop.
 - Padronização de commits (feat/fix/chore/style/docs);
--
+- 
 
 ## Techs Stacks
 
@@ -34,6 +34,7 @@ O projeto usa os seguintes recursos:
 - NextJS
 - TailwindCSS
 - Shadcn/ui
+- Framer-motion
 
 ## Demo
 
