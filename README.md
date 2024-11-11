@@ -6,10 +6,10 @@ Somos uma plataforma que conecta pessoas interessadas em legumes e vegetais fres
 
 ## Estrutura do Projeto
 
-- [use-cases]()
-- [diagrama]()
-- [prototipos]()
-- [projeto-web]()
+<!-- - [use-cases]() -->
+- [Modelo de Dados](https://github.com/rbpolim/senac-hortionline/tree/main/docs/der)
+- [Telas de navegação Protótipo](https://github.com/rbpolim/senac-hortionline/tree/main/docs/prototype)
+- [Demo - Hortionline](https://senac-hortionline.vercel.app)
 
 ## Colaboradores
 
@@ -26,7 +26,6 @@ O projeto usa os seguintes recursos:
 - Tema light e dark para melhorar a experiência do usuário.
 - Responsividade para dispositivos móveis e desktop.
 - Padronização de commits (feat/fix/chore/style/docs);
-- 
 
 ## Techs Stacks
 
@@ -34,8 +33,3 @@ O projeto usa os seguintes recursos:
 - NextJS
 - TailwindCSS
 - Shadcn/ui
-- Framer-motion
-
-## Demo
-
-- [Hortionline](https://senac-hortionline.vercel.app)
