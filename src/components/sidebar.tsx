@@ -1,10 +1,8 @@
 import Link from "next/link";
+import Image from "next/image";
 import { usePathname } from "next/navigation";
 
 import { cn } from "@/lib/utils";
-import Image from "next/image";
-
-// import { Logo } from "@/components/logo";
 
 export const Sidebar = () => {
   const pathname = usePathname();

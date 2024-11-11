@@ -24,7 +24,9 @@ export function ProductCard({
       <div className="p-2">
         <h3 className="text-sm">{title}</h3>
         <div className="mt-3 flex items-center justify-between">
-          <span className="text-sm font-bold text-green-800 text-center w-full">R$ {price.toFixed(2)}</span>
+          <span className="text-sm font-bold text-green-800 text-center w-full">
+            R$ {price.toFixed(2)}
+          </span>
         </div>
       </div>
     </div>

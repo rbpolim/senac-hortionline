@@ -11,7 +11,9 @@ export function ProductSection({ productsCategories }: ProductSectionProps) {
       <div className="flex flex-col gap-y-8">
         {productsCategories.map((productCategory) => (
           <div key={productCategory.title}>
-            <h2 className="text-lg font-bold">{productCategory.title}</h2>
+            <h2 className="text-lg font-bold">
+              {productCategory.title}
+            </h2>
             <div className="flex space-x-2 overflow-x-scroll last:mr-[-23px] no-scrollbar mt-2 pb-4">
               {productCategory.products.map((item) => (
                 <div key={item.id}>

@@ -7,7 +7,6 @@ export function Footer() {
       <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
         <div className="text-center xl:flex xl:items-center xl:justify-between xl:text-left">
           <div className="flex flex-row items-center justify-center">
-            {/* <Logo /> */}
             <p className="text-sm ml-3 xl:mt-0">
               Copyright © 2024 Hortionline
             </p>

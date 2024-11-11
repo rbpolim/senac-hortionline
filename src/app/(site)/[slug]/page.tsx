@@ -55,7 +55,6 @@ export default function SellerPage() {
     )
   }
 
-
   return (
     <>
       <ModalProfile

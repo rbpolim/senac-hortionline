@@ -32,12 +32,11 @@ export function Header() {
 
   return (
     <header className="flex-shrink-0 h-20 flex items-center fixed w-full z-50 transition duration-700 ease-in-out backdrop-blur-sm">
-      <div className="flex items-center justify-between w-full max-w-7xl mx-auto px-2">
+      <div className="flex items-center justify-between w-full max-w-7xl mx-auto px-6">
         <MobileSidebar />
         <Link href="/">
           <Image src="/logo.svg" alt="logo" width={70} height={60} />
         </Link>
-
         <nav className="hidden md:flex gap-8 items-start transition">
           {routes.map((route) => (
             <Link
@@ -52,11 +51,6 @@ export function Header() {
             </Link>
           ))}
         </nav>
-
-        {/* <div className="flex-1" /> */}
-        {/* <Link href="/">
-          <Image src="/logo.svg" alt="logo" width={80} height={60} />
-        </Link> */}
         <ModeToggle />
       </div>
     </header>
