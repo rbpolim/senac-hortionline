@@ -1,24 +1,24 @@
 import Link from "next/link";
 import Image from "next/image";
+import { ArrowUpRight } from "lucide-react";
 
 import { Button } from "@/components/ui/button";
-import { ArrowUpRight } from "lucide-react";
 
 export default function Home() {
   return (
     <div>
       <section className="pt-8 pb-16 text-center">
         <div className="relative max-w-2xl mx-auto">
-          <h2 className="relative z-10 text-6xl md:text-8xl font-black text-center font-sans bg-gradient-to-r from-orange-900 via-orange-500 to-orange-900 bg-clip-text text-transparent leading-tight">
-            Orgânico,
-          </h2>
-          <h2 className="relative z-10 text-5xl md:text-8xl font-black text-center font-sans bg-gradient-to-r from-orange-900 via-orange-400 to-orange-900 bg-clip-text text-transparent leading-tight">
+          <h2 className="relative leading-tight z-10 text-4xl md:text-8xl font-black text-center font-sans bg-gradient-to-r from-orange-900 via-orange-400 to-orange-900 bg-clip-text text-transparent">
             Sustentável,
           </h2>
-          <h2 className="text-2xl font-black md:text-6xl  text-center font-sans text-orange-700">
-            Fresco!
+          <h2 className="text-4xl font-black md:text-6xl text-center font-sans bg-gradient-to-r from-orange-900 via-orange-500 to-orange-900 bg-clip-text text-transparent">
+            Fresco,
           </h2>
-          <p className="mt-8 text-muted-foreground">
+          <h2 className="relative leading-tight z-10 text-5xl md:text-8xl font-black text-center font-sans bg-gradient-to-r from-orange-900 via-orange-400 to-orange-900 bg-clip-text text-transparent pb-6">
+            Orgânico!
+          </h2>
+          <p className="mt-4 text-muted-foreground">
             Produtos cultivados com amor e respeito à natureza, entregues
             diretamente do campo para a sua mesa.
           </p>

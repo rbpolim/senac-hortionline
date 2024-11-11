@@ -18,7 +18,7 @@ export function ProductCard({
           src={image}
           fill
           alt={title}
-          className="w-full object-cover brightness-80"
+          className="w-full object-cover opacity-90"
         />
       </div>
       <div className="p-2">

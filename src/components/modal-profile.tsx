@@ -2,8 +2,8 @@ import { useEffect, useState } from "react";
 import { Clock, House, Phone, Store, CreditCard } from "lucide-react";
 
 import { Modal } from "@/components/modal";
-import { SellerProps } from "@/data/sellers-data";
 import { formatAddress } from "@/utils/format-address";
+import { SellerProps } from "@/types";
 
 type Props = {
   isOpen: boolean;

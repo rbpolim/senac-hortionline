@@ -33,8 +33,8 @@ export const Sidebar = () => {
         <Image
           src="/logo.svg"
           alt="logo"
-          width={120}
-          height={120}
+          width={110}
+          height={110}
           className="opacity-90"
         />
       </div>

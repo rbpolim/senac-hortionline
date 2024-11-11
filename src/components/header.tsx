@@ -35,7 +35,7 @@ export function Header() {
       <div className="flex items-center justify-between w-full max-w-7xl mx-auto px-2">
         <MobileSidebar />
         <Link href="/">
-          <Image src="/logo.svg" alt="logo" width={80} height={60} />
+          <Image src="/logo.svg" alt="logo" width={70} height={60} />
         </Link>
 
         <nav className="hidden md:flex gap-8 items-start transition">

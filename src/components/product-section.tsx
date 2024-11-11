@@ -1,7 +1,5 @@
-// import { ProductCard } from "@/components/Produ";
 import { ProductsCategories } from "@/data/sellers-data";
 import { ProductCard } from "./ProductCard";
-
 
 type ProductSectionProps = {
   productsCategories: ProductsCategories[];

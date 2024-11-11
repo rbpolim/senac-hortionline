@@ -1,11 +1,11 @@
 "use client";
 
+import axios from "axios";
 import { useEffect, useState } from "react";
 import { useParams } from "next/navigation";
 import { Phone, PlusIcon, StarIcon } from "lucide-react";
 
-import { Seller } from "@/data/sellers-data";
-import { getSellerBySlug } from "@/utils/get-seller-by-slug";
+import { SellerProps } from "@/types";
 
 import { Button } from "@/components/ui/button";
 import { ModalProfile } from "@/components/modal-profile";
@@ -16,17 +16,27 @@ export default function SellerPage() {
   const { slug } = useParams<{ slug: string }>();
 
   const [open, setOpen] = useState(false);
-  const [seller, setSeller] = useState<Seller | null>(null);
+  const [loading, setLoading] = useState(false);
+  const [seller, setSeller] = useState<SellerProps | null>(null);
+
+  async function getSellerBySlug(slug: string) {
+    try {
+      setLoading(true);
+      const response = await axios.get(`http://localhost:8000/sellers?slug=${slug}`);
+      setSeller(response.data[0] as SellerProps);
+    } catch (error) {
+      console.error(error);
+    } finally {
+      setLoading(false);
+    }
+  };
 
   useEffect(() => {
-    if (slug) {
-      const seller = getSellerBySlug(slug);
-      setSeller(seller!);
-    }
-  }, [slug]);
+    getSellerBySlug(slug);
+  }, [slug])
 
-  if (!seller) {
-    return null;
+  if (!seller || loading) {
+    return <div>Carregando...</div>;
   }
 
   return (
@@ -36,7 +46,7 @@ export default function SellerPage() {
         onClose={() => setOpen(false)}
         seller={seller}
       />
-      <div className="flex items-center justify-center gap-x-3 max-w-2xl mx-auto">
+      <div className="flex items-center justify-center gap-x-2">
         <Avatar>
           <AvatarImage src={seller.avatarUrl} className="object-cover" />
         </Avatar>
@@ -49,7 +59,7 @@ export default function SellerPage() {
               4.6
             </span>
           </div>
-          <div className="flex items-center gap-x-3 mt-2">
+          <div className="flex items-center gap-x-2 mt-2">
             <Button size="sm" variant="secondary" onClick={() => setOpen(true)}>
               <PlusIcon size={16} />
               Detalhes
@@ -61,10 +71,7 @@ export default function SellerPage() {
           </div>
         </div>
       </div>
-      <div className="flex items-center justify-center mx-auto max-w-3xl">
-        {/* @ts-expect-error TODO */}
-        <ProductSection productsCategories={seller.productsCategories} />
-      </div>
+      <ProductSection productsCategories={seller.productsCategories} />
     </>
   );
 }

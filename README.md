@@ -6,7 +6,6 @@ Somos uma plataforma que conecta pessoas interessadas em legumes e vegetais fres
 
 ## Estrutura do Projeto
 
-<!-- - [use-cases]() -->
 - [Modelo de Dados](https://github.com/rbpolim/senac-hortionline/tree/main/docs/der)
 - [Telas de navegação Protótipo](https://github.com/rbpolim/senac-hortionline/tree/main/docs/prototype)
 - [Demo - Hortionline](https://senac-hortionline.vercel.app)
@@ -19,13 +18,25 @@ Somos uma plataforma que conecta pessoas interessadas em legumes e vegetais fres
 - [Vitor](https://github.com/victort89)
 - [Yuki](https://github.com/yukitnak)
 
+## Iniciando o Servidor Mock (Backend)
+
+Este projeto utiliza o `json-server` para simular uma API de backend. Para iniciar o servidor mock, você deve rodar o seguinte script:
+
+```bash
+npm run server
+```
+
 ## Features
 
 O projeto usa os seguintes recursos:
 
 - Tema light e dark para melhorar a experiência do usuário.
 - Responsividade para dispositivos móveis e desktop.
-- Padronização de commits (feat/fix/chore/style/docs);
+- Padronização de commits (feat/fix/chore/style/docs).
+- Json-server para simular uma API REST.
+- TailwindCSS para estilização dos componentes.
+- Shadcn/ui para componentes de interface.
+- NextJS para renderização do lado do servidor.
 
 ## Techs Stacks
 
