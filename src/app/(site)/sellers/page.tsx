@@ -1,12 +1,14 @@
 import { SellerCard } from "@/components/seller-card";
-import { fetchSellers } from "@/actions/fetch-sellers";
+// import { fetchSellers } from "@/actions/fetch-sellers";
+
+import { SELLERS } from '@/data/sellers-data'
 
 export default async function SellersPage() {
-  const sellers = await fetchSellers()
+  // const sellers = await fetchSellers()
 
-  if (!sellers) {
-    return <div>Carregando...</div>;
-  }
+  // if (!sellers) {
+  //   return <div>Carregando...</div>;
+  // }
 
   return (
     <div className="flex flex-col items-start mx-auto max-w-2xl">
@@ -16,7 +18,7 @@ export default async function SellersPage() {
         região.
       </p>
       <div className="grid grid-cols-1 md:grid-cols-2 lg: gap-6 mt-8">
-        {sellers.map((seller) => (
+        {SELLERS.map((seller) => (
           <SellerCard
             key={seller.id}
             title={seller.name}

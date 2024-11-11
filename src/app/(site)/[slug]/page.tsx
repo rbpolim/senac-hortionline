@@ -1,11 +1,11 @@
 "use client";
 
-import axios from "axios";
 import { useEffect, useState } from "react";
 import { useParams } from "next/navigation";
 import { Phone, PlusIcon, StarIcon } from "lucide-react";
 
 import { SellerProps } from "@/types";
+import { getSellerBySlug } from "@/utils/get-seller-by-slug";
 
 import { Button } from "@/components/ui/button";
 import { ModalProfile } from "@/components/modal-profile";
@@ -16,28 +16,45 @@ export default function SellerPage() {
   const { slug } = useParams<{ slug: string }>();
 
   const [open, setOpen] = useState(false);
-  const [loading, setLoading] = useState(false);
-  const [seller, setSeller] = useState<SellerProps | null>(null);
+  // const [loading, setLoading] = useState(false);
+  const [seller, setSeller] = useState<SellerProps>();
 
-  async function getSellerBySlug(slug: string) {
-    try {
-      setLoading(true);
-      const response = await axios.get(`http://localhost:8000/sellers?slug=${slug}`);
-      setSeller(response.data[0] as SellerProps);
-    } catch (error) {
-      console.error(error);
-    } finally {
-      setLoading(false);
-    }
-  };
+  // async function getSellerBySlug(slug: string) {
+  //   try {
+  //     setLoading(true);
+  //     const response = await axios.get(`http://localhost:8000/sellers?slug=${slug}`);
+  //     setSeller(response.data[0] as SellerProps);
+  //   } catch (error) {
+  //     console.error(error);
+  //   } finally {
+  //     setLoading(false);
+  //   }
+  // };
+
+  // useEffect(() => {
+  //   getSellerBySlug(slug);
+  // }, [slug])
+
+  // if (!seller || loading) {
+  //   return <div>Carregando...</div>;
+  // }
 
   useEffect(() => {
-    getSellerBySlug(slug);
-  }, [slug])
+    if (slug) {
+      const seller = getSellerBySlug(slug);
+      // @ts-expect-error - TODO: fix this
+      setSeller(seller);
+    }
+  }, [slug]);
 
-  if (!seller || loading) {
-    return <div>Carregando...</div>;
+  if (!seller) {
+    return (
+      <div>
+        Nem um produtor encontrado! 😔
+      </div>
+    )
   }
+
 
   return (
     <>

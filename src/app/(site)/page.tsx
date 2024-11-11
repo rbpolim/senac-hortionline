@@ -9,7 +9,7 @@ export default function Home() {
     <div>
       <section className="pt-8 pb-16 text-center">
         <div className="relative max-w-2xl mx-auto">
-          <h2 className="relative leading-tight z-10 text-4xl md:text-8xl font-black text-center font-sans bg-gradient-to-r from-orange-900 via-orange-400 to-orange-900 bg-clip-text text-transparent">
+          <h2 className="relative leading-tight z-10 text-5xl md:text-8xl font-black text-center font-sans bg-gradient-to-r from-orange-900 via-orange-400 to-orange-900 bg-clip-text text-transparent">
             Sustentável,
           </h2>
           <h2 className="text-4xl font-black md:text-6xl text-center font-sans bg-gradient-to-r from-orange-900 via-orange-500 to-orange-900 bg-clip-text text-transparent">
