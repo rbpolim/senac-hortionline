@@ -1,0 +1,161 @@
+{
+  "sellers": [
+    {
+      "id": "1",
+      "avatarUrl": "/images/sellers/seller-1.png",
+      "rating": 4.6,
+      "name": "Orgânicos do Vale",
+      "description": "Produtor local de alimentos frescos e orgânicos.",
+      "slug": "organicos-do-vale",
+      "about": "A Orgânicos do Vale é uma empresa familiar que cultiva produtos orgânicos há mais de 20 anos, comprometida com a sustentabilidade e a saúde dos clientes.",
+      "address": {
+        "street": "Rua das Flores",
+        "number": "123",
+        "neighborhood": "Centro",
+        "city": "São Paulo",
+        "state": "SP",
+        "zipCode": "01000-000"
+      },
+      "contact": {
+        "phone": "(11) 98765-4321",
+        "email": "contato@organicosdovale.com"
+      },
+      "methodPayments": [
+        "Cartão de Crédito",
+        "Dinheiro",
+        "Pix"
+      ],
+      "dateTimeWork": {
+        "days": [
+          "Segunda",
+          "Quarta",
+          "Sábado"
+        ],
+        "hours": "08:00 - 14:00"
+      },
+      "productsCategories": [
+        {
+          "title": "Produtos em destaque",
+          "products": [
+            {
+              "id": 1,
+              "title": "Cenoura Orgânica",
+              "type": "Legume",
+              "image": "/images/food/cenoura.png",
+              "price": 4,
+              "description": "Cenouras frescas, ricas em nutrientes."
+            },
+            {
+              "id": 2,
+              "title": "Alface Orgânica",
+              "type": "Salada",
+              "image": "/images/food/alface.png",
+              "price": 3.5,
+              "description": "Alface orgânica crocante e fresca."
+            }
+          ]
+        },
+        {
+          "title": "Legumes",
+          "products": [
+            {
+              "id": 4,
+              "title": "Abobrinha Orgânica",
+              "type": "Legume",
+              "image": "/images/food/abobrinha.png",
+              "price": 4.5,
+              "description": "Abobrinhas orgânicas de alta qualidade."
+            }
+          ]
+        },
+        {
+          "title": "Verduras",
+          "products": [
+            {
+              "id": 7,
+              "title": "Couve Orgânica",
+              "type": "Verdura",
+              "image": "/images/food/couve.png",
+              "price": 2.5,
+              "description": "Couve orgânica rica em vitaminas."
+            },
+            {
+              "id": 8,
+              "title": "Espinafre Orgânico",
+              "type": "Verdura",
+              "image": "/images/food/beterraba.png",
+              "price": 3.2,
+              "description": "Espinafre orgânico perfeito para receitas saudáveis."
+            },
+            {
+              "id": 9,
+              "title": "Alface Orgânica",
+              "type": "Verdura",
+              "image": "/images/food/alface.png",
+              "price": 3.5,
+              "description": "Alface orgânica crocante e fresca."
+            }
+          ]
+        },
+        {
+          "title": "Ervas",
+          "products": [
+            {
+              "id": 10,
+              "title": "Manjericão Orgânico",
+              "type": "Erva",
+              "image": "/images/food/alface.png",
+              "price": 2,
+              "description": "Manjericão fresco para temperos."
+            },
+            {
+              "id": 11,
+              "title": "Salsa Orgânica",
+              "type": "Erva",
+              "image": "/images/food/salsa.png",
+              "price": 1.5,
+              "description": "Salsa fresca para temperar suas refeições."
+            },
+            {
+              "id": 12,
+              "title": "Cebolinha Orgânica",
+              "type": "Erva",
+              "image": "/images/food/cenoura.png",
+              "price": 1.8,
+              "description": "Cebolinha orgânica para adicionar sabor aos pratos."
+            }
+          ]
+        },
+        {
+          "title": "Saladas",
+          "products": [
+            {
+              "id": 13,
+              "title": "Rúcula Orgânica",
+              "type": "Salada",
+              "image": "/images/food/couve.png",
+              "price": 3.2,
+              "description": "Rúcula fresca, perfeita para saladas."
+            },
+            {
+              "id": 14,
+              "title": "Alface Orgânica",
+              "type": "Salada",
+              "image": "/images/food/alface.png",
+              "price": 3.5,
+              "description": "Alface crocante, ideal para saladas."
+            },
+            {
+              "id": 15,
+              "title": "Acelga Orgânica",
+              "type": "Salada",
+              "image": "/images/food/salsa.png",
+              "price": 2.9,
+              "description": "Acelga fresca e crocante, ótima para pratos leves."
+            }
+          ]
+        }
+      ]
+    }  
+  ]
+}
