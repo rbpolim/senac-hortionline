@@ -19,6 +19,14 @@ Somos uma plataforma que conecta pessoas interessadas em legumes e vegetais fres
 - O usuário pode visualizar informações detalhadas sobre os produtores orgânicos
 - O usuário pode alternar entre os temas claro (light) e escuro (dark).
 
+## Arquitetura de Desenvolvimento
+
+- **Frontend**: Construído com **React** e **Next.js**, escolhidos por sua eficiência e pela funcionalidade de *API Routes*.  
+- **Linguagem**: Utilização de **TypeScript** para tipagem estática e maior segurança no código.  
+- **Estilização**: Implementado com **TailwindCSS**, garantindo agilidade e customização nas interfaces.  
+- **Componentes**: Utilizamos o **ShadCN** para acelerar o desenvolvimento com componentes pré-projetados.  
+- **Dados no MVP**: Dados estáticos foram mockados utilizando **json-server**, que funciona a partir de um arquivo `.json`, ideal para validação de funcionalidades rápidas nesta etapa inicial.  
+
 ## Colaboradores
 
 - [Rodrigo Polim](https://github.com/rbpolim)
