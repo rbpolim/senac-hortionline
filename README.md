@@ -10,6 +10,15 @@ Somos uma plataforma que conecta pessoas interessadas em legumes e vegetais fres
 - [Telas de navegação Protótipo](https://github.com/rbpolim/senac-hortionline/tree/main/docs/prototype)
 - [Demo - Hortionline](https://senac-hortionline.vercel.app)
 
+## Caso de uso
+
+- O usuário pode se cadastrar no aplicativo e adicionar seus produtos orgânicos
+- O usuário pode buscar e localizar produtores orgânicos.
+- O usuário pode pesquisar e encontrar produtos orgânicos disponíveis.
+- O usuário pode entrar em contato com os produtores orgânicos diretamente pelo WhatsApp.
+- O usuário pode visualizar informações detalhadas sobre os produtores orgânicos
+- O usuário pode alternar entre os temas claro (light) e escuro (dark).
+
 ## Colaboradores
 
 - [Rodrigo Polim](https://github.com/rbpolim)
