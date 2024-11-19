@@ -6,9 +6,10 @@ Somos uma plataforma que conecta pessoas interessadas em legumes e vegetais fres
 
 ## Estrutura do Projeto
 
-- [Modelo de Dados](https://github.com/rbpolim/senac-hortionline/tree/main/docs/der)
+- [Modelo de Dados](https://github.com/rbpolim/senac-hortionline/blob/main/docs/der/der-db.png)
 - [Telas de navegação Protótipo](https://github.com/rbpolim/senac-hortionline/tree/main/docs/prototype)
 - [Demo - Hortionline](https://senac-hortionline.vercel.app)
+- [Apresentação Projeto Youtube](https://www.youtube.com/watch?v=uDjJw2r7yIs&t=24s&ab_channel=RodrigoPolim)
 
 ## Caso de uso
 
@@ -24,23 +25,29 @@ Somos uma plataforma que conecta pessoas interessadas em legumes e vegetais fres
 - **Frontend**: Construído com **React** e **Next.js**, escolhidos por sua eficiência e pela funcionalidade de *API Routes*.  
 - **Linguagem**: Utilização de **TypeScript** para tipagem estática e maior segurança no código.  
 - **Estilização**: Implementado com **TailwindCSS**, garantindo agilidade e customização nas interfaces.  
-- **Componentes**: Utilizamos o **ShadCN** para acelerar o desenvolvimento com componentes pré-projetados.  
+- **Componentes**: Utilizamos o **ShadCN** para acelerar o desenvolvimento com componentes pré-projetados.
+- **Deploy**: Utilizamos a Vercel.
 - **Dados no MVP**: Dados estáticos foram mockados utilizando **json-server**, que funciona a partir de um arquivo `.json`, ideal para validação de funcionalidades rápidas nesta etapa inicial.  
 
 ## Colaboradores
 
+- [Donizete Tadeu Cuesta Alves]()
 - [Rodrigo Polim](https://github.com/rbpolim)
-- [Samuel](https://github.com/radagoon)
-- [Vanessa](https://github.com/Van02tavares)
-- [Vitor](https://github.com/victort89)
-- [Yuki](https://github.com/yukitnak)
+- [Samuel Elizeu](https://github.com/radagoon)
+- [Vanessa Aparecida](https://github.com/Van02tavares)
+- [Victor Thomas](https://github.com/victort89)
+- [Yuki Tanaka](https://github.com/yukitnak)
 
-## Iniciando o Servidor Mock (Backend)
+## Iniciando Projeto e o Servidor Mock (Backend)
 
-Este projeto utiliza o `json-server` para simular uma API de backend. Para iniciar o servidor mock, você deve rodar o seguinte script:
+Este projeto utiliza o `json-server` para simular uma API de backend. Para iniciar o projeto e o servidor mock, você deve rodar os seguintes scripts:
 
 ```bash
 npm run server
+```
+
+```bash
+npm run dev
 ```
 
 ## Features
@@ -54,10 +61,3 @@ O projeto usa os seguintes recursos:
 - TailwindCSS para estilização dos componentes.
 - Shadcn/ui para componentes de interface.
 - NextJS para renderização do lado do servidor.
-
-## Techs Stacks
-
-- TypeScript
-- NextJS
-- TailwindCSS
-- Shadcn/ui
