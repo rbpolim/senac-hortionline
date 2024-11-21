@@ -1,5 +1,10 @@
 ![MacBook Air - 2](https://github.com/user-attachments/assets/8c1cba4f-7897-4f19-bcf7-341cab5170e1)
 
+- **Curso:** Análise e Desenvolvimento de Sistemas EAD
+- **Disciplina:** Projeto Integrador
+- **Tema:** Análise de Soluções Integradas para Organizações
+- **Grupo:** 28
+
 ## Projeto Integrador Hortionline
 
 Somos uma plataforma que conecta pessoas interessadas em legumes e vegetais frescos e orgânicos com produtores locais. Nosso site permite que produtores criem perfis e compartilhem seus produtos, promovendo uma alimentação saudável e sustentável e facilitando o acesso a alimentos de qualidade e procedência confiável.
@@ -29,7 +34,7 @@ Somos uma plataforma que conecta pessoas interessadas em legumes e vegetais fres
 - **Deploy**: Utilizamos a Vercel.
 - **Dados no MVP**: Dados estáticos foram mockados utilizando **json-server**, que funciona a partir de um arquivo `.json`, ideal para validação de funcionalidades rápidas nesta etapa inicial.  
 
-## Colaboradores
+## Colaboradores Grupo 28
 
 - [Donizete Tadeu Cuesta Alves]()
 - [Rodrigo Polim](https://github.com/rbpolim)
